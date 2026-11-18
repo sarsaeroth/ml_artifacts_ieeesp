@@ -34,21 +34,4 @@ if missing:
 print("Python " + sys.version.split()[0] + "; dependencies OK")
 PYCHECK
 
-# the dataset artifact: $STATIC_ARTIFACT, else the sibling directory that holds its corpus manifest
-STATIC="${STATIC_ARTIFACT:-}"
-if [ -z "$STATIC" ]; then
-  for d in ../*/; do
-    if [ -f "${d}data/manifests/manifest_v3.csv" ]; then
-      STATIC="${d%/}"
-      break
-    fi
-  done
-fi
-if [ -z "$STATIC" ]; then
-  STATIC=../static
-fi
-export STATIC_ARTIFACT="$STATIC"
-if [ ! -f "$STATIC/data/manifests/manifest_v3.csv" ]; then
-  echo "note: the dataset artifact was not found at $STATIC; check it out there or set STATIC_ARTIFACT" >&2
-fi
 echo "Done. Run ./verify.sh"

@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Recompute the paper's numbers from data/results/ and the dataset artifact ($STATIC_ARTIFACT, else the
-# sibling directory that holds its corpus manifest), then run the attribution end to end on the shipped sample (skipped with --numbers-only).
+# Recompute the paper's numbers from data/, then run the attribution end to end on the shipped sample (skipped with --numbers-only).
 # Each command is printed as "$ <command line>", followed by its result: one number, or a table. The program,
 # the subcommand and the arguments say what is computed from which shipped file. Nothing is compared against
 # expected values; read the results next to the paper. The output is also written to verify_output.txt.
@@ -16,20 +15,6 @@ else
   PY="${PYTHON:-python3}"
 fi
 export PYTHONDONTWRITEBYTECODE=1
-# the dataset artifact: $STATIC_ARTIFACT, else the sibling directory that holds its corpus manifest
-STATIC="${STATIC_ARTIFACT:-}"
-if [ -z "$STATIC" ]; then
-  for d in ../*/; do
-    if [ -f "${d}data/manifests/manifest_v3.csv" ]; then
-      STATIC="${d%/}"
-      break
-    fi
-  done
-fi
-if [ -z "$STATIC" ]; then
-  STATIC=../static
-fi
-export STATIC_ARTIFACT="$STATIC"
 EIGHT=cashraven,ipidea,ipninja,luminati,monkeysocks,oxylabs,popa,traffmonetizer
 failed=0
 
@@ -56,24 +41,24 @@ run() {
 
 {
 # Section 4: corpus (Table 1 and its caption, label sources, label validity)
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=cashraven --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=ipidea --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=ipninja --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=luminati --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=monkeysocks --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=oxylabs --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=popa --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=traffmonetizer --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=cashraven --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=ipidea --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=ipninja --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=luminati --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=monkeysocks --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=oxylabs --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=popa --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=traffmonetizer --sep
 run "$PY" scripts/query.py table 'data/results/dex_reuse_v3.json::per_family::*' --field share --percent --digits 1
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=mi_network --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=dex_pivot --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=dropped_unvalidated_pivot --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=version_pivot --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=c2_domain_pivot --sep
-run "$PY" scripts/query.py count "$STATIC/data/manifests/manifest_v3.csv" --where status=kept --where provider=monkeysocks --distinct dex_group
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=mi_network --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=dex_pivot --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=dropped_unvalidated_pivot --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=version_pivot --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where-in "provider=$EIGHT" --where label_source=c2_domain_pivot --sep
+run "$PY" scripts/query.py count "data/manifests/manifest_v3.csv" --where status=kept --where provider=monkeysocks --distinct dex_group
 run "$PY" scripts/query.py value data/results/label_validity_dex.json::full::n --sep
-run "$PY" scripts/query.py diff "$STATIC/data/results/proxy_v3/v3/open_world.json::n_corpus" data/results/label_validity_dex.json::full::n --sep
+run "$PY" scripts/query.py diff "data/results/proxy_v3/v3/open_world.json::n_corpus" data/results/label_validity_dex.json::full::n --sep
 run "$PY" scripts/query.py value data/results/label_validity_dex.json::minus_monkeysocks_dormant::dropped --sep
 run "$PY" scripts/query.py value data/results/label_validity_dex.json::minus_monkeysocks_no_code::dropped --sep
 run "$PY" scripts/query.py stat sum data/results/label_validity_dex.json::minus_monkeysocks_dormant::dropped data/results/label_validity_dex.json::minus_monkeysocks_no_code::dropped --sep
@@ -95,14 +80,14 @@ run "$PY" scripts/derive.py over-seeds min data/results/analyst_heuristics.json:
 run "$PY" scripts/derive.py over-seeds max data/results/analyst_heuristics.json::runs --seed-prefix v3/ --field n_methods --sep
 run "$PY" scripts/derive.py over-seeds median data/results/analyst_heuristics.json::runs --seed-prefix v3/ --field n_methods --over-providers max --in-millions --digits 1
 
-# Section 6.1: classification baselines (dataset artifact)
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/e2a_standardized.json::labeled::best_linear" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/v4/cert_drebin.json::drebin_code::rf::f1" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/e2a_standardized.json::mama_package::best_linear" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3_gneardup_fcg/v4/cert_drebin.json::drebin_code::linear_svm::f1" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3_gneardup_fcg/e2a_standardized.json::labeled::best_linear" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/v3/open_world.json::O2::linear::macro_f1" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/v3/open_world.json::O2::linear::sd" --digits 3
+# Section 6.1: classification baselines (dataset)
+run "$PY" scripts/query.py value "data/results/proxy_v3/e2a_standardized.json::labeled::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3/v4/cert_drebin.json::drebin_code::rf::f1" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3/e2a_standardized.json::mama_package::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3_gneardup_fcg/v4/cert_drebin.json::drebin_code::linear_svm::f1" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3_gneardup_fcg/e2a_standardized.json::labeled::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3/v3/open_world.json::O2::linear::macro_f1" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3/v3/open_world.json::O2::linear::sd" --digits 3
 
 # Section 6.2: method rankings (Table 2), multiple-kernel baseline, allocation rules
 run "$PY" scripts/derive.py over-seeds count data/results/analyst_heuristics.json::runs --seed-prefix v3/ --field provenance::p@25 --provider luminati
@@ -164,11 +149,11 @@ run "$PY" scripts/query.py stat max 'data/results/confound_v3.json::share_median
 run "$PY" scripts/query.py stat max 'data/results/confound_v3.json::share_median::*::ad' --percent --digits 1
 run "$PY" scripts/query.py table 'data/results/masked_attribution_v3.json::summary::*' --field full::first_sdk_median --field ad_masked::first_sdk_median
 run "$PY" scripts/query.py table 'data/results/masked_attribution_v3.json::summary::*' --field full::p_at_25 --field ad_masked::p_at_25 --field full::reach_within_3 --field ad_masked::reach_within_3 --digits 2
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/r3a_renaming.json::labeled::flip_rate" --percent --digits 1
-run "$PY" scripts/query.py table "$STATIC/data/results/proxy_v3/r3a_renaming.json::labeled::per_family::*" --field flip_rate --percent --digits 0
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3/e2a_standardized.json::combined::best_linear" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3_gneardup/e2a_standardized.json::combined::best_linear" --digits 3
-run "$PY" scripts/query.py value "$STATIC/data/results/proxy_v3_gneardup/e2a_standardized.json::labeled::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3/r3a_renaming.json::labeled::flip_rate" --percent --digits 1
+run "$PY" scripts/query.py table "data/results/proxy_v3/r3a_renaming.json::labeled::per_family::*" --field flip_rate --percent --digits 0
+run "$PY" scripts/query.py value "data/results/proxy_v3/e2a_standardized.json::combined::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3_gneardup/e2a_standardized.json::combined::best_linear" --digits 3
+run "$PY" scripts/query.py value "data/results/proxy_v3_gneardup/e2a_standardized.json::labeled::best_linear" --digits 3
 
 # Section 7.1: routes to the network core (Table 4), reach by hash dimension, diagnostic, bootstrap (Table 5)
 run "$PY" scripts/derive.py over-seeds median data/results/analyst_heuristics.json::runs --seed-prefix v3/ --field provenance::p@25 --provider luminati --percent --digits 0

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run provenance attribution end to end on the shipped sample.
 
-1. Trains the attributed model from the dataset artifact's data/vectors/ (STATIC_ARTIFACT) exactly as the paper's ranking does (exp_label_audit.train:
+1. Trains the attributed model from data/vectors/ exactly as the paper's ranking does (exp_label_audit.train:
    linear SGD, log loss, alpha 1e-4, upsampled to the largest provider, seed 42) on the evaluated
    applications of the eight providers (manifest rows with a dex_group).
 2. For each sample FCG in data/samples/, re-extracts the identifier WL vector with provenance (lib/attribution.py,
@@ -23,17 +23,8 @@ from sklearn.linear_model import SGDClassifier
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(HERE, "scripts"))
-# corpus manifest and vectors come from the dataset paper's artifact (STATIC_ARTIFACT, set by verify.sh;
-# else the sibling directory that holds its corpus manifest)
-STATIC = os.environ.get("STATIC_ARTIFACT", "")
-if STATIC == "":
-    parent = os.path.dirname(HERE)
-    for name in sorted(os.listdir(parent)):
-        if os.path.isfile(os.path.join(parent, name, "data", "manifests", "manifest_v3.csv")):
-            STATIC = os.path.join(parent, name)
-            break
-if STATIC == "":
-    STATIC = os.path.join(os.path.dirname(HERE), "static")
+# corpus manifest and vectors from the dataset, shipped under data/
+STATIC = HERE
 import attribution as P
 import gen_wl_vectors as G
 

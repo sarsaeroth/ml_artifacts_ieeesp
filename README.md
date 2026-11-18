@@ -3,9 +3,8 @@
 Artifact for the paper: the result file behind every measured number, a sample of call graphs that runs the
 attribution end to end, and the experiment scripts.
 
-The corpus manifest and WL vectors come from the dataset paper's artifact
-(https://anonymous.4open.science/r/static_artifacts_eurosp-C707/). Place it next to this directory;
-`verify.sh` finds the sibling that holds its manifest, or set `STATIC_ARTIFACT=/path/to/it`.
+The corpus is the public dataset of the cited dataset paper. The files of it that this artifact reads (the
+corpus manifest, the identifier WL vectors and the classification baselines) are included under `data/`.
 
 ## Run
 
@@ -29,7 +28,9 @@ Nothing stores the paper's values: compare each result with the paper.
 
 ## Layout
 
-    data/results/   result files
+    data/manifests/ the corpus manifest (from the dataset)
+    data/results/   result files, including the dataset's classification baselines
+    data/vectors/   identifier WL vectors (from the dataset)
     data/samples/   two call graphs per provider (zstd GML), listed in samples.json
     scripts/        query.py, derive.py, run_attribution.py and the modules it imports; experiments/ holds
                     the experiment scripts
