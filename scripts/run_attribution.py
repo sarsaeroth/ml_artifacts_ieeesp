@@ -24,12 +24,15 @@ from sklearn.linear_model import SGDClassifier
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(HERE, "scripts"))
 # corpus manifest and vectors come from the dataset paper's artifact (STATIC_ARTIFACT, set by verify.sh;
-# else a sibling clone static_artifacts_eurosp, else ../static)
-if "STATIC_ARTIFACT" in os.environ:
-    STATIC = os.environ["STATIC_ARTIFACT"]
-elif os.path.isdir(os.path.join(os.path.dirname(HERE), "static_artifacts_eurosp")):
-    STATIC = os.path.join(os.path.dirname(HERE), "static_artifacts_eurosp")
-else:
+# else the sibling directory that holds its corpus manifest)
+STATIC = os.environ.get("STATIC_ARTIFACT", "")
+if STATIC == "":
+    parent = os.path.dirname(HERE)
+    for name in sorted(os.listdir(parent)):
+        if os.path.isfile(os.path.join(parent, name, "data", "manifests", "manifest_v3.csv")):
+            STATIC = os.path.join(parent, name)
+            break
+if STATIC == "":
     STATIC = os.path.join(os.path.dirname(HERE), "static")
 import attribution as P
 import gen_wl_vectors as G

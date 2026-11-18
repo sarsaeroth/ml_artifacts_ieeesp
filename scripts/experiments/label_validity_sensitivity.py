@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Attribution with the corpus-v3 builds whose provider label the code does not support removed.
 
-datasets/corpus_v3/label_validity.json lists, from the static reverse engineering of 2026-11-08
+datasets/corpus_v3/label_validity.json lists, from the static reverse engineering
 (results/c2_analysis/{MONKEYSOCKS,OXYLABS,IPIDEA}_NOTES.md):
   monkeysocks_dormant   SDK present, never declared in the manifest nor called (1,095; 1,088 AppsGeyser)
   monkeysocks_no_code   no Monkeysocks namespace (1)
   oxylabs_no_code       none of the 20 Oxylabs engine namespaces (15)
   ipidea_ninevpn_only   only the com.through ninevpn client, no IPIDEA proxy engine (88)
-Each arm drops one set (or all of them) and repeats the #1751 headline evaluation of
+Each arm drops one set (or all of them) and repeats the headline evaluation of
 exp_e2a_standardized.py: identifier-seeded WL (CFG + FCG), linear SGD on raw vectors, in-fold
 upsampling, 3 repeats of StratifiedGroupKFold(5). Run once per grouping (LEAK_GROUPS=dex or neardup).
 Reports macro-F1 and per-class F1 per arm.

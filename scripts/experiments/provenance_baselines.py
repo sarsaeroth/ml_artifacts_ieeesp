@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate provenance-guided ranking against the baselines a reviewer will ask for.
+"""Validate provenance-guided ranking against simpler baselines.
 
 The claim under test is that provenance-aware inversion of hashed WL features ranks
 proxy SDK methods above host code well enough to prioritise reverse engineering.

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Recompute the paper's numbers from data/results/ and the dataset artifact ($STATIC_ARTIFACT, else a
-# sibling clone ../static_artifacts_eurosp, else ../static), then run the attribution end to end on the shipped sample (skipped with --numbers-only).
+# Recompute the paper's numbers from data/results/ and the dataset artifact ($STATIC_ARTIFACT, else the
+# sibling directory that holds its corpus manifest), then run the attribution end to end on the shipped sample (skipped with --numbers-only).
 # Each command is printed as "$ <command line>", followed by its result: one number, or a table. The program,
 # the subcommand and the arguments say what is computed from which shipped file. Nothing is compared against
 # expected values; read the results next to the paper. The output is also written to verify_output.txt.
@@ -16,12 +16,17 @@ else
   PY="${PYTHON:-python3}"
 fi
 export PYTHONDONTWRITEBYTECODE=1
-# the dataset artifact: $STATIC_ARTIFACT, else a sibling clone of static_artifacts_eurosp, else ../static
-if [ -n "${STATIC_ARTIFACT:-}" ]; then
-  STATIC="$STATIC_ARTIFACT"
-elif [ -d ../static_artifacts_eurosp ]; then
-  STATIC=../static_artifacts_eurosp
-else
+# the dataset artifact: $STATIC_ARTIFACT, else the sibling directory that holds its corpus manifest
+STATIC="${STATIC_ARTIFACT:-}"
+if [ -z "$STATIC" ]; then
+  for d in ../*/; do
+    if [ -f "${d}data/manifests/manifest_v3.csv" ]; then
+      STATIC="${d%/}"
+      break
+    fi
+  done
+fi
+if [ -z "$STATIC" ]; then
   STATIC=../static
 fi
 export STATIC_ARTIFACT="$STATIC"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dimension and split sensitivity of identifier WL on corpus v3 (the #1756 appendix sweep figures).
+"""Dimension and split sensitivity of identifier WL on corpus v3 (the appendix sweep figures).
 
 Configurations: graph block {CFG+FCG, FCG, CFG} x classifier {SGD (log loss, alpha 1e-5), Random Forest
 (100 trees), XGBoost (hist, 200 trees, depth 6)}, on the eight classes (3,777 applications), with the packed

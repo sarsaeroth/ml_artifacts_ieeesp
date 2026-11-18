@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Manifest-declared vs programmatic SDK integration on corpus v3 (the #1756 appendix table).
+"""Manifest-declared vs programmatic SDK integration on corpus v3 (the appendix table).
 
 For every corpus-v3 class application (status kept, split class), parse AndroidManifest.xml with androguard
 (parsing only) and record whether at least one declared component (activity, service, receiver or provider)

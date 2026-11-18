@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Search-space reduction on corpus v3 (the #1756 counts: ranked methods, method-APK entry points, methods in
+"""Search-space reduction on corpus v3 (the counts: ranked methods, method-APK entry points, methods in
 transitive slices), the old pipeline's selection rule applied to the eight providers.
 
 Ranking: exp_label_audit's provenance ranking (linear SGD on the v3 identifier FCG vectors, d=1024; exact

@@ -4,7 +4,7 @@
 The localization study (results/discriminative_methods.json) found that for the
 two families whose proxy SDK is obfuscated, the most family-discriminative
 classes are co-bundled advertising libraries (mopub, facebook/ads). That raises a
-dataset-confound objection a TPL-aware reviewer will make: maybe the model is
+possible dataset confound: maybe the model is
 recognising the host-app bundle, not the proxy behaviour.
 
 We test it directly. From a single parse of each call graph we build three WL
