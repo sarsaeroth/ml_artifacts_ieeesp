@@ -1,0 +1,381 @@
+{
+  "dims": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576,
+    2097152
+  ],
+  "iters": 2,
+  "colourings": [
+    "labeled"
+  ],
+  "E1_isolation_vs_prediction": {
+    "1024": {
+      "n": 448,
+      "mean_signed_error": -0.00028,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.02167
+    },
+    "2048": {
+      "n": 448,
+      "mean_signed_error": 0.00052,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.13033
+    },
+    "4096": {
+      "n": 448,
+      "mean_signed_error": 0.00197,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.11849
+    },
+    "8192": {
+      "n": 448,
+      "mean_signed_error": 0.00333,
+      "median_signed_error": -0.0,
+      "max_abs_error": 0.24179
+    },
+    "16384": {
+      "n": 448,
+      "mean_signed_error": 0.0019,
+      "median_signed_error": -0.00014,
+      "max_abs_error": 0.18041
+    },
+    "32768": {
+      "n": 448,
+      "mean_signed_error": 0.00273,
+      "median_signed_error": 0.00018,
+      "max_abs_error": 0.16741
+    },
+    "65536": {
+      "n": 448,
+      "mean_signed_error": 0.00545,
+      "median_signed_error": 0.0016,
+      "max_abs_error": 0.19423
+    },
+    "131072": {
+      "n": 448,
+      "mean_signed_error": 0.004,
+      "median_signed_error": 0.00201,
+      "max_abs_error": 0.26498
+    },
+    "262144": {
+      "n": 448,
+      "mean_signed_error": -0.0002,
+      "median_signed_error": 0.0005,
+      "max_abs_error": 0.26825
+    },
+    "524288": {
+      "n": 448,
+      "mean_signed_error": -0.00038,
+      "median_signed_error": 0.00062,
+      "max_abs_error": 0.19314
+    },
+    "1048576": {
+      "n": 448,
+      "mean_signed_error": -0.00123,
+      "median_signed_error": 0.00015,
+      "max_abs_error": 0.15292
+    },
+    "2097152": {
+      "n": 448,
+      "mean_signed_error": -0.00023,
+      "median_signed_error": 7e-05,
+      "max_abs_error": 0.23784
+    }
+  },
+  "E2_occupancy_ratio": {
+    "n": 448,
+    "rho_median": 0.01887,
+    "rho_p95": 0.41224,
+    "rho_max": 0.99057,
+    "max_dstar_spread_factor": 106.0783
+  },
+  "E4_colouring_vs_M_distinct": {
+    "labeled": {
+      "n": 448,
+      "M_distinct_median": 47445,
+      "d_star_90_median": 450311,
+      "ratio_to_labeled": 1.0
+    }
+  },
+  "E6_recurrence_by_target": {
+    "SDK:cashraven": {
+      "apps": 4,
+      "distinct_sigs": 308,
+      "recurrence": 0.3799
+    },
+    "Lcom/facebook/": {
+      "apps": 20,
+      "distinct_sigs": 23103,
+      "recurrence": 0.4759
+    },
+    "Lcom/bumptech/": {
+      "apps": 18,
+      "distinct_sigs": 9232,
+      "recurrence": 0.4776
+    },
+    "Lorg/xmlpull/": {
+      "apps": 89,
+      "distinct_sigs": 55,
+      "recurrence": 0.6545
+    },
+    "Lorg/bouncycastle/": {
+      "apps": 16,
+      "distinct_sigs": 17,
+      "recurrence": 1.0
+    },
+    "Lretrofit2/": {
+      "apps": 6,
+      "distinct_sigs": 881,
+      "recurrence": 0.4926
+    },
+    "Lorg/greenrobot/": {
+      "apps": 11,
+      "distinct_sigs": 1294,
+      "recurrence": 0.7774
+    },
+    "Lorg/jsoup/": {
+      "apps": 4,
+      "distinct_sigs": 5262,
+      "recurrence": 0.1564
+    },
+    "Lorg/w3c/": {
+      "apps": 26,
+      "distinct_sigs": 60,
+      "recurrence": 0.5833
+    },
+    "SDK:ipidea": {
+      "apps": 11,
+      "distinct_sigs": 586,
+      "recurrence": 0.4198
+    },
+    "Lcom/appsflyer/": {
+      "apps": 8,
+      "distinct_sigs": 897,
+      "recurrence": 1.0
+    },
+    "Lcom/android/installreferrer/": {
+      "apps": 10,
+      "distinct_sigs": 44,
+      "recurrence": 0.9545
+    },
+    "Lcom/adjust/": {
+      "apps": 1,
+      "distinct_sigs": 1242,
+      "recurrence": 0.0008
+    },
+    "Lcom/airbnb/": {
+      "apps": 3,
+      "distinct_sigs": 2003,
+      "recurrence": 0.029
+    },
+    "SDK:ipninja": {
+      "apps": 20,
+      "distinct_sigs": 680,
+      "recurrence": 0.9779
+    },
+    "Lcom/applovin/": {
+      "apps": 9,
+      "distinct_sigs": 12376,
+      "recurrence": 0.1839
+    },
+    "Lcom/yandex/": {
+      "apps": 5,
+      "distinct_sigs": 25939,
+      "recurrence": 0.2303
+    },
+    "Lcom/tapjoy/": {
+      "apps": 6,
+      "distinct_sigs": 7904,
+      "recurrence": 0.7692
+    },
+    "Lcom/squareup/": {
+      "apps": 14,
+      "distinct_sigs": 2893,
+      "recurrence": 0.6879
+    },
+    "Lrx/": {
+      "apps": 7,
+      "distinct_sigs": 5798,
+      "recurrence": 0.9452
+    },
+    "Lorg/slf4j/": {
+      "apps": 7,
+      "distinct_sigs": 613,
+      "recurrence": 0.7977
+    },
+    "Lorg/acra/": {
+      "apps": 7,
+      "distinct_sigs": 1028,
+      "recurrence": 1.0
+    },
+    "Lio/fabric/": {
+      "apps": 3,
+      "distinct_sigs": 1227,
+      "recurrence": 0.9845
+    },
+    "Lcom/crashlytics/": {
+      "apps": 3,
+      "distinct_sigs": 1343,
+      "recurrence": 0.8325
+    },
+    "Lcom/startapp/": {
+      "apps": 5,
+      "distinct_sigs": 14386,
+      "recurrence": 0.2702
+    },
+    "Lcom/nostra13/": {
+      "apps": 1,
+      "distinct_sigs": 865,
+      "recurrence": 0.0
+    },
+    "SDK:luminati": {
+      "apps": 20,
+      "distinct_sigs": 25485,
+      "recurrence": 0.4335
+    },
+    "Lcom/vungle/": {
+      "apps": 4,
+      "distinct_sigs": 11171,
+      "recurrence": 0.0899
+    },
+    "Lcom/adcolony/": {
+      "apps": 3,
+      "distinct_sigs": 2980,
+      "recurrence": 0.0473
+    },
+    "Lcom/moat/": {
+      "apps": 3,
+      "distinct_sigs": 2771,
+      "recurrence": 0.1454
+    },
+    "Lcom/unity3d/": {
+      "apps": 25,
+      "distinct_sigs": 11806,
+      "recurrence": 0.3873
+    },
+    "Lcom/chartboost/": {
+      "apps": 5,
+      "distinct_sigs": 4294,
+      "recurrence": 0.1325
+    },
+    "Lcom/fyber/": {
+      "apps": 2,
+      "distinct_sigs": 2885,
+      "recurrence": 0.0
+    },
+    "Lcom/flurry/": {
+      "apps": 3,
+      "distinct_sigs": 3875,
+      "recurrence": 0.0108
+    },
+    "Lcom/oneaudience/": {
+      "apps": 1,
+      "distinct_sigs": 527,
+      "recurrence": 0.0
+    },
+    "Lcom/tutelatechnologies/": {
+      "apps": 1,
+      "distinct_sigs": 2515,
+      "recurrence": 0.0
+    },
+    "Lde/greenrobot/": {
+      "apps": 1,
+      "distinct_sigs": 175,
+      "recurrence": 0.0
+    },
+    "Lcom/my/target/": {
+      "apps": 1,
+      "distinct_sigs": 4095,
+      "recurrence": 0.0
+    },
+    "Lcom/inmobi/": {
+      "apps": 3,
+      "distinct_sigs": 7246,
+      "recurrence": 0.0897
+    },
+    "Lcom/mopub/": {
+      "apps": 1,
+      "distinct_sigs": 3627,
+      "recurrence": 0.0
+    },
+    "Lcom/amazon/device/ads/": {
+      "apps": 4,
+      "distinct_sigs": 2592,
+      "recurrence": 0.0073
+    },
+    "SDK:monkeysocks": {
+      "apps": 1,
+      "distinct_sigs": 1168,
+      "recurrence": 0.0
+    },
+    "Lcz/msebera/": {
+      "apps": 1,
+      "distinct_sigs": 5673,
+      "recurrence": 0.0
+    },
+    "Lcom/onesignal/": {
+      "apps": 5,
+      "distinct_sigs": 8165,
+      "recurrence": 0.202
+    },
+    "SDK:oxylabs": {
+      "apps": 17,
+      "distinct_sigs": 300,
+      "recurrence": 0.9867
+    },
+    "Lcom/koushikdutta/": {
+      "apps": 17,
+      "distinct_sigs": 2828,
+      "recurrence": 1.0
+    },
+    "SDK:popa": {
+      "apps": 7,
+      "distinct_sigs": 634,
+      "recurrence": 0.1877
+    },
+    "Lcom/ironsource/": {
+      "apps": 2,
+      "distinct_sigs": 22660,
+      "recurrence": 0.0315
+    },
+    "Lcom/smaato/": {
+      "apps": 1,
+      "distinct_sigs": 24,
+      "recurrence": 0.0
+    },
+    "Lcom/mintegral/": {
+      "apps": 1,
+      "distinct_sigs": 12,
+      "recurrence": 0.0
+    },
+    "Lcom/mbridge/": {
+      "apps": 1,
+      "distinct_sigs": 26,
+      "recurrence": 0.0
+    },
+    "Lcom/bytedance/": {
+      "apps": 1,
+      "distinct_sigs": 11,
+      "recurrence": 0.0
+    },
+    "Lcom/qq/e/": {
+      "apps": 1,
+      "distinct_sigs": 7,
+      "recurrence": 0.0
+    },
+    "SDK:traffmonetizer": {
+      "apps": 2,
+      "distinct_sigs": 877,
+      "recurrence": 0.0
+    }
+  }
+}

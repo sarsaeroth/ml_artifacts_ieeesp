@@ -1,0 +1,768 @@
+{
+ "runs": {
+  "42": {
+   "ipninja": {
+    "candidates": 415879,
+    "first_rank": 2,
+    "first_method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "marker": "Lcom/ipninja/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 3.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "luminati": {
+    "candidates": 246788,
+    "first_rank": 37,
+    "first_method": "Lio/topvpn/vpn_api/peer_dialog;->onConfigurationChanged(Landroid/content/res/Configuration;)V",
+    "marker": "Lio/topvpn/vpn_api/",
+    "apps": 25,
+    "marker_coverage": 0.56,
+    "apps_scored": 14,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.7857142857142857,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 11,
+     "lifecycle": 3
+    }
+   },
+   "monkeysocks": {
+    "candidates": 148089,
+    "first_rank": 40,
+    "first_method": "Lmonkeynode/sdk/YJOVD39FDE;->n()V",
+    "marker": "Lmonkeynode/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 5.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "oxylabs": {
+    "candidates": 191695,
+    "first_rank": 599,
+    "first_method": "Lframett/Utils;-><init>()V",
+    "marker": "Lframett/",
+    "apps": 25,
+    "marker_coverage": 0.28,
+    "apps_scored": 7,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 7.0,
+    "entry": {
+     "host_call": 7
+    }
+   },
+   "cashraven": {
+    "candidates": 714402,
+    "first_rank": 3,
+    "first_method": "Lio/cashraven/sdk/ForegroundService;-><init>()V",
+    "marker": "Lio/cashraven/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.88,
+    "apps_scored": 2,
+    "apps_without_core": 20,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 1.0,
+    "entry": {
+     "host_call": 2
+    }
+   },
+   "ipidea": {
+    "candidates": 218401,
+    "first_rank": 17,
+    "first_method": "Lcom/through/turtle/TurError;->setIp(Ljava/lang/String;)V",
+    "marker": "Lcom/through/turtle/",
+    "apps": 25,
+    "marker_coverage": 0.4,
+    "apps_scored": 4,
+    "apps_without_core": 6,
+    "reached": 0.0,
+    "within_3": 0.0,
+    "median_hops": null,
+    "entry": {
+     "host_call": 4
+    }
+   },
+   "popa": {
+    "candidates": 1322307,
+    "first_rank": 105,
+    "first_method": "Lio/popanet/Popa;->A()Z",
+    "marker": "Lio/popanet/",
+    "apps": 25,
+    "marker_coverage": 0.24,
+    "apps_scored": 6,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 0.0,
+    "entry": {
+     "host_call": 6
+    }
+   },
+   "traffmonetizer": {
+    "candidates": 383927,
+    "first_rank": 102,
+    "first_method": "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c;-><init>(Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl;)V",
+    "marker": "Lcom/traffmonetizer/sdk/",
+    "apps": 17,
+    "marker_coverage": 0.9411764705882353,
+    "apps_scored": 5,
+    "apps_without_core": 11,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 5
+    }
+   }
+  },
+  "0": {
+   "ipninja": {
+    "candidates": 400095,
+    "first_rank": 2,
+    "first_method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "marker": "Lcom/ipninja/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 3.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "luminati": {
+    "candidates": 308926,
+    "first_rank": 1,
+    "first_method": "Lio/topvpn/vpn_api/be$worker$sock_server;->isBound()Z",
+    "marker": "Lio/topvpn/vpn_api/",
+    "apps": 25,
+    "marker_coverage": 0.88,
+    "apps_scored": 22,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.7727272727272727,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 18,
+     "lifecycle": 4
+    }
+   },
+   "monkeysocks": {
+    "candidates": 124128,
+    "first_rank": 105,
+    "first_method": "Lmonkeynode/sdk/YJOVD39FDE;->n()V",
+    "marker": "Lmonkeynode/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 5.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "oxylabs": {
+    "candidates": 237881,
+    "first_rank": 672,
+    "first_method": "Lframett/Utils;-><init>()V",
+    "marker": "Lframett/",
+    "apps": 25,
+    "marker_coverage": 0.2,
+    "apps_scored": 5,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 7.0,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "cashraven": {
+    "candidates": 720042,
+    "first_rank": 1,
+    "first_method": "Lio/cashraven/sdk/ForegroundService;-><init>()V",
+    "marker": "Lio/cashraven/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.96,
+    "apps_scored": 4,
+    "apps_without_core": 20,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 1.0,
+    "entry": {
+     "host_call": 4
+    }
+   },
+   "ipidea": {
+    "candidates": 238596,
+    "first_rank": 1,
+    "first_method": "Lcom/through/turtle/TurError;->setIp(Ljava/lang/String;)V",
+    "marker": "Lcom/through/turtle/",
+    "apps": 25,
+    "marker_coverage": 0.52,
+    "apps_scored": 6,
+    "apps_without_core": 7,
+    "reached": 0.0,
+    "within_3": 0.0,
+    "median_hops": null,
+    "entry": {
+     "host_call": 6
+    }
+   },
+   "popa": {
+    "candidates": 1268708,
+    "first_rank": 190,
+    "first_method": "Lio/popanet/Popa;->A()Z",
+    "marker": "Lio/popanet/",
+    "apps": 25,
+    "marker_coverage": 0.28,
+    "apps_scored": 7,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 0.0,
+    "entry": {
+     "host_call": 7
+    }
+   },
+   "traffmonetizer": {
+    "candidates": 383927,
+    "first_rank": 96,
+    "first_method": "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c;-><init>(Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl;)V",
+    "marker": "Lcom/traffmonetizer/sdk/",
+    "apps": 17,
+    "marker_coverage": 0.9411764705882353,
+    "apps_scored": 5,
+    "apps_without_core": 11,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 5
+    }
+   }
+  },
+  "1": {
+   "ipninja": {
+    "candidates": 395540,
+    "first_rank": 2,
+    "first_method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "marker": "Lcom/ipninja/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 3.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "luminati": {
+    "candidates": 310193,
+    "first_rank": 1,
+    "first_method": "Lio/topvpn/vpn_api/state$key;-><clinit>()V",
+    "marker": "Lio/topvpn/vpn_api/",
+    "apps": 25,
+    "marker_coverage": 0.96,
+    "apps_scored": 24,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.8333333333333334,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 21,
+     "lifecycle": 3
+    }
+   },
+   "monkeysocks": {
+    "candidates": 129573,
+    "first_rank": 126,
+    "first_method": "Lmonkeynode/sdk/YJOVD39FDE;->n()V",
+    "marker": "Lmonkeynode/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 5.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "oxylabs": {
+    "candidates": 245193,
+    "first_rank": 738,
+    "first_method": "Lframett/Utils;-><init>()V",
+    "marker": "Lframett/",
+    "apps": 25,
+    "marker_coverage": 0.2,
+    "apps_scored": 5,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 7.0,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "cashraven": {
+    "candidates": 647711,
+    "first_rank": 3,
+    "first_method": "Lio/cashraven/sdk/ForegroundService;-><init>()V",
+    "marker": "Lio/cashraven/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.88,
+    "apps_scored": 2,
+    "apps_without_core": 20,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 1.0,
+    "entry": {
+     "host_call": 2
+    }
+   },
+   "ipidea": {
+    "candidates": 281988,
+    "first_rank": 22,
+    "first_method": "Lcom/through/turtle/TurError;->setIp(Ljava/lang/String;)V",
+    "marker": "Lcom/through/turtle/",
+    "apps": 25,
+    "marker_coverage": 0.44,
+    "apps_scored": 5,
+    "apps_without_core": 6,
+    "reached": 0.0,
+    "within_3": 0.0,
+    "median_hops": null,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "popa": {
+    "candidates": 1164405,
+    "first_rank": 33,
+    "first_method": "Lio/moneytise/Moneytiser;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V",
+    "marker": "Lio/moneytise/",
+    "apps": 25,
+    "marker_coverage": 0.36,
+    "apps_scored": 0,
+    "apps_without_core": 9,
+    "reached": null,
+    "within_3": null,
+    "median_hops": null,
+    "entry": {}
+   },
+   "traffmonetizer": {
+    "candidates": 383927,
+    "first_rank": 98,
+    "first_method": "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c;-><init>(Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl;)V",
+    "marker": "Lcom/traffmonetizer/sdk/",
+    "apps": 17,
+    "marker_coverage": 0.9411764705882353,
+    "apps_scored": 5,
+    "apps_without_core": 11,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 5
+    }
+   }
+  },
+  "2": {
+   "ipninja": {
+    "candidates": 423145,
+    "first_rank": 3,
+    "first_method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "marker": "Lcom/ipninja/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 3.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "luminati": {
+    "candidates": 255777,
+    "first_rank": 3,
+    "first_method": "Lio/topvpn/vpn_api/be$worker$sock_server;->isBound()Z",
+    "marker": "Lio/topvpn/vpn_api/",
+    "apps": 25,
+    "marker_coverage": 0.56,
+    "apps_scored": 14,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.8571428571428571,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 9,
+     "lifecycle": 5
+    }
+   },
+   "monkeysocks": {
+    "candidates": 127112,
+    "first_rank": 101,
+    "first_method": "Lmonkeynode/sdk/YJOVD39FDE;->n()V",
+    "marker": "Lmonkeynode/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.96,
+    "apps_scored": 24,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 5.0,
+    "entry": {
+     "host_call": 24
+    }
+   },
+   "oxylabs": {
+    "candidates": 264548,
+    "first_rank": 1100,
+    "first_method": "Lframett/Utils;-><init>()V",
+    "marker": "Lframett/",
+    "apps": 25,
+    "marker_coverage": 0.16,
+    "apps_scored": 4,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 8.0,
+    "entry": {
+     "host_call": 4
+    }
+   },
+   "cashraven": {
+    "candidates": 708778,
+    "first_rank": 1,
+    "first_method": "Lio/cashraven/sdk/ForegroundService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;",
+    "marker": "Lio/cashraven/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.88,
+    "apps_scored": 5,
+    "apps_without_core": 17,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 1.0,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "ipidea": {
+    "candidates": 254880,
+    "first_rank": 3,
+    "first_method": "Lcom/through/turtle/TurError;->setIp(Ljava/lang/String;)V",
+    "marker": "Lcom/through/turtle/",
+    "apps": 25,
+    "marker_coverage": 0.6,
+    "apps_scored": 4,
+    "apps_without_core": 11,
+    "reached": 0.0,
+    "within_3": 0.0,
+    "median_hops": null,
+    "entry": {
+     "host_call": 4
+    }
+   },
+   "popa": {
+    "candidates": 1135449,
+    "first_rank": 97,
+    "first_method": "Lio/moneytise/support/NetworkStateReceiver;-><clinit>()V",
+    "marker": "Lio/moneytise/support/",
+    "apps": 25,
+    "marker_coverage": 0.56,
+    "apps_scored": 0,
+    "apps_without_core": 14,
+    "reached": null,
+    "within_3": null,
+    "median_hops": null,
+    "entry": {}
+   },
+   "traffmonetizer": {
+    "candidates": 383927,
+    "first_rank": 100,
+    "first_method": "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c;-><init>(Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl;)V",
+    "marker": "Lcom/traffmonetizer/sdk/",
+    "apps": 17,
+    "marker_coverage": 0.9411764705882353,
+    "apps_scored": 5,
+    "apps_without_core": 11,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 5
+    }
+   }
+  },
+  "3": {
+   "ipninja": {
+    "candidates": 445518,
+    "first_rank": 2,
+    "first_method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "marker": "Lcom/ipninja/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 3.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "luminati": {
+    "candidates": 293659,
+    "first_rank": 1,
+    "first_method": "Lio/topvpn/vpn_api/be$worker$sock_server;->isBound()Z",
+    "marker": "Lio/topvpn/vpn_api/",
+    "apps": 25,
+    "marker_coverage": 0.88,
+    "apps_scored": 22,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.8636363636363636,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 19,
+     "lifecycle": 3
+    }
+   },
+   "monkeysocks": {
+    "candidates": 125024,
+    "first_rank": 48,
+    "first_method": "Lmonkeynode/sdk/MonkeyNodeSdk;->c(Lmonkeynode/sdk/MonkeyNodeSdk;)Landroid/os/Handler;",
+    "marker": "Lmonkeynode/sdk/",
+    "apps": 25,
+    "marker_coverage": 1.0,
+    "apps_scored": 25,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 5.0,
+    "entry": {
+     "host_call": 25
+    }
+   },
+   "oxylabs": {
+    "candidates": 209743,
+    "first_rank": 980,
+    "first_method": "Lframett/Utils;->t(I)V",
+    "marker": "Lframett/",
+    "apps": 25,
+    "marker_coverage": 0.2,
+    "apps_scored": 5,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 0.0,
+    "median_hops": 7.0,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "cashraven": {
+    "candidates": 622357,
+    "first_rank": 1,
+    "first_method": "Lio/cashraven/sdk/ForegroundService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;",
+    "marker": "Lio/cashraven/sdk/",
+    "apps": 25,
+    "marker_coverage": 0.92,
+    "apps_scored": 5,
+    "apps_without_core": 18,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 1.0,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "ipidea": {
+    "candidates": 253280,
+    "first_rank": 10,
+    "first_method": "Lcom/through/turtle/TurError;->setIp(Ljava/lang/String;)V",
+    "marker": "Lcom/through/turtle/",
+    "apps": 25,
+    "marker_coverage": 0.48,
+    "apps_scored": 5,
+    "apps_without_core": 7,
+    "reached": 0.0,
+    "within_3": 0.0,
+    "median_hops": null,
+    "entry": {
+     "host_call": 5
+    }
+   },
+   "popa": {
+    "candidates": 1391907,
+    "first_rank": 81,
+    "first_method": "Lio/popanet/Popa;->A()Z",
+    "marker": "Lio/popanet/",
+    "apps": 25,
+    "marker_coverage": 0.28,
+    "apps_scored": 7,
+    "apps_without_core": 0,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 0.0,
+    "entry": {
+     "host_call": 7
+    }
+   },
+   "traffmonetizer": {
+    "candidates": 383927,
+    "first_rank": 90,
+    "first_method": "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c;-><init>(Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl;)V",
+    "marker": "Lcom/traffmonetizer/sdk/",
+    "apps": 17,
+    "marker_coverage": 0.9411764705882353,
+    "apps_scored": 5,
+    "apps_without_core": 11,
+    "reached": 1.0,
+    "within_3": 1.0,
+    "median_hops": 2.0,
+    "entry": {
+     "host_call": 5
+    }
+   }
+  }
+ },
+ "summary": {
+  "ipninja": {
+   "first_rank": 2.0,
+   "marker_coverage": 1.0,
+   "reached": 1.0,
+   "within_3": 1.0,
+   "median_hops": 3.0,
+   "markers": {
+    "Lcom/ipninja/sdk/": 5
+   },
+   "first_classes": {
+    "Lcom/ipninja/sdk/LongRunningTask$a": 5
+   }
+  },
+  "luminati": {
+   "first_rank": 1.0,
+   "marker_coverage": 0.88,
+   "reached": 1.0,
+   "within_3": 0.8333333333333334,
+   "median_hops": 2.0,
+   "markers": {
+    "Lio/topvpn/vpn_api/": 5
+   },
+   "first_classes": {
+    "Lio/topvpn/vpn_api/peer_dialog": 1,
+    "Lio/topvpn/vpn_api/be$worker$sock_server": 3,
+    "Lio/topvpn/vpn_api/state$key": 1
+   }
+  },
+  "monkeysocks": {
+   "first_rank": 101.0,
+   "marker_coverage": 1.0,
+   "reached": 1.0,
+   "within_3": 0.0,
+   "median_hops": 5.0,
+   "markers": {
+    "Lmonkeynode/sdk/": 5
+   },
+   "first_classes": {
+    "Lmonkeynode/sdk/YJOVD39FDE": 4,
+    "Lmonkeynode/sdk/MonkeyNodeSdk": 1
+   }
+  },
+  "oxylabs": {
+   "first_rank": 738.0,
+   "marker_coverage": 0.2,
+   "reached": 1.0,
+   "within_3": 0.0,
+   "median_hops": 7.0,
+   "markers": {
+    "Lframett/": 5
+   },
+   "first_classes": {
+    "Lframett/Utils": 5
+   }
+  },
+  "cashraven": {
+   "first_rank": 1.0,
+   "marker_coverage": 0.88,
+   "reached": 1.0,
+   "within_3": 1.0,
+   "median_hops": 1.0,
+   "markers": {
+    "Lio/cashraven/sdk/": 5
+   },
+   "first_classes": {
+    "Lio/cashraven/sdk/ForegroundService": 5
+   }
+  },
+  "ipidea": {
+   "first_rank": 10.0,
+   "marker_coverage": 0.48,
+   "reached": 0.0,
+   "within_3": 0.0,
+   "median_hops": null,
+   "markers": {
+    "Lcom/through/turtle/": 5
+   },
+   "first_classes": {
+    "Lcom/through/turtle/TurError": 5
+   }
+  },
+  "popa": {
+   "first_rank": 97.0,
+   "marker_coverage": 0.28,
+   "reached": 1.0,
+   "within_3": 1.0,
+   "median_hops": 0.0,
+   "markers": {
+    "Lio/popanet/": 3,
+    "Lio/moneytise/": 1,
+    "Lio/moneytise/support/": 1
+   },
+   "first_classes": {
+    "Lio/popanet/Popa": 3,
+    "Lio/moneytise/Moneytiser": 1,
+    "Lio/moneytise/support/NetworkStateReceiver": 1
+   }
+  },
+  "traffmonetizer": {
+   "first_rank": 98.0,
+   "marker_coverage": 0.9411764705882353,
+   "reached": 1.0,
+   "within_3": 1.0,
+   "median_hops": 2.0,
+   "markers": {
+    "Lcom/traffmonetizer/sdk/": 5
+   },
+   "first_classes": {
+    "Lcom/traffmonetizer/sdk/TraffmonetizerSdkImpl$c": 5
+   }
+  }
+ }
+}

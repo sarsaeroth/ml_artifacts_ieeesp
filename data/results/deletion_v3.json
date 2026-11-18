@@ -1,0 +1,4218 @@
+{
+ "p_grid": [
+  0.0,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.4
+ ],
+ "apps": {
+  "12adf5f2ec652045ea5d419ec2d9f688f4e050639f55333df40c95d6873087c3": {
+   "family": "traffmonetizer",
+   "n_dev": 10365,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "1ec06c271b2bec38628a48b16b139c35bc4089e5d59a78aba90573ed491c2524": {
+   "family": "ipninja",
+   "n_dev": 2499,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "362266d301880faa4ba6266383778d8537426fbe9977ccd24993fb26c9da9ba3": {
+   "family": "ipidea",
+   "n_dev": 92697,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "440caf5b8988977f878e969bb28c2ad89012e81cd82a1b86e4ce773fd34855d5": {
+   "family": "ipninja",
+   "n_dev": 28275,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5a18ad80a8181ba42d0d4b3921c8bc29cb43a229d2165dff55a7071a6a40a58f": {
+   "family": "cashraven",
+   "n_dev": 106673,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6afeed6aececf3760c6bac86eff6fc647352ba5d7125207646339efaa4133526": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6e5e4b7275b687fbcb93970dba480fe81551ec3cbb5b75b986a876a9ed75dc3d": {
+   "family": "oxylabs",
+   "n_dev": 119203,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7baa9ccbae6aa004b5526e1729b3bb695d4865b0465d1f045f72edd0edf6d9df": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7d694bc186b7a7d7bfd701ffc4737034d7afe68b49f1b6e41827d752c6e8023f": {
+   "family": "ipidea",
+   "n_dev": 34731,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "87b43ae49a1e6d6bb4ba5cd1c0b5b8abbdfd3fa053797f56bfc0f685dfb36077": {
+   "family": "traffmonetizer",
+   "n_dev": 26002,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "8cd8b19188ddae77c153d2a024575e81cd867cdaa8599853242f3ca43646c910": {
+   "family": "ipidea",
+   "n_dev": 32721,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "90b1345d2536e8f60e7be33a4574c702c959bd3afa859bcf51628560b8bfbba1": {
+   "family": "cashraven",
+   "n_dev": 7239,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "92254e5cd45c98879880add59f4c81fd2f3529bb1cd0977121bfb095145a584b": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "92de04e4ad068af9b7001744bde1fc52567039066b80b046253f128f365fe3af": {
+   "family": "ipidea",
+   "n_dev": 92699,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9d2412a375bc195cea1f05b83055956cbc922796bed7e0daab4543d13f8d7e2d": {
+   "family": "oxylabs",
+   "n_dev": 34484,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "a4d121cc25c267e3e5c2787a69b93990a33dad1ec498804f60ac450e6ef24c4d": {
+   "family": "luminati",
+   "n_dev": 17894,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b11f4c2e87e9609ba06a6ce54b669283e4e7d705356b97f68b6b61d8be3dc113": {
+   "family": "luminati",
+   "n_dev": 3781,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b32bbe5175826ee722cf6e15df67cf4127e0363aaf924a9e4edef95d8f4ffd65": {
+   "family": "ipidea",
+   "n_dev": 17959,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "b6ce962d3053880a538bc1718048e97a9466bff016359748daee0673c5bdb117": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "becc81f33f47ed89cf1cbb1ed50294e1f1569f73aca1895cf6be8c6492bc995a": {
+   "family": "cashraven",
+   "n_dev": 91150,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c3c22f049e8427476d981885a749f025a97d5f95507a405cdc294f30e8dc68dc": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ccae8852f8f6a6a316294526778c39b93149760b586b057ef5afc51016fede4a": {
+   "family": "oxylabs",
+   "n_dev": 12193,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "cf5d6fa7f7255a9cee1d6061a8f20fce7eb831298d7d22dbbac863cefa5690d2": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d1e0d2e7be4d4ea784b83a1a5208faab08005dd06904dcbd85aa58fda4d15f19": {
+   "family": "traffmonetizer",
+   "n_dev": 11250,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "d8993b48c01160cb6f2860f22d283a7a09667e3ee661b1d023b2e92760d85fc7": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d9e84609cbe2e2753917144d82095722620d0a4f01526febee9f7ef5576304ab": {
+   "family": "cashraven",
+   "n_dev": 91853,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "db0b89ab391d9635cd4c293b189fb0ad1f07c02a6c8494b3476c4752268db960": {
+   "family": "luminati",
+   "n_dev": 30131,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "db68ed91a0fd823b2c23f9bfc394dc8702fb15111ad01ec3d0bbd3ea888f3ad3": {
+   "family": "popa",
+   "n_dev": 137910,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "dc76d6c5a40f79a550e99db26d5e36d7bd9c482a48dd59ca978c58afb4fff25d": {
+   "family": "monkeysocks",
+   "n_dev": 75903,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e27bc88fdc90051c70434265f7dfe5937d4bc5d5f3b67d3baaeb7207bcfd872b": {
+   "family": "popa",
+   "n_dev": 114294,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "eb1fb2a0dfc2d809f65b29be9fbd9a16b59ad876a1f0347e642f05ac105bd920": {
+   "family": "ipidea",
+   "n_dev": 92791,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "fc7ee29b2ba4eaffa73392d2188fbfc2a04ee06afb0c79d2b82d56462995245b": {
+   "family": "luminati",
+   "n_dev": 12392,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "0149a3a056fa2e0706032ecc39177651ecf00df2544263a93e6c349ecf6885ed": {
+   "family": "traffmonetizer",
+   "n_dev": 244917,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "0225ef7e78bfff0401bb2fe83829fdcb204349f34fa7efee8e365dd5c4963196": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "0d85f25a3c978b82e1f8e56d5bda0154ab34f578d0b2f4d17c064ab4d576b5f0": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "0dda6bb76edc10d86a52fa391e0db34e6bce67a70eb6e76fbb9af9641227c529": {
+   "family": "oxylabs",
+   "n_dev": 13189,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "12545f17ace1d9f27a2516a150cf2746425a4b501d4371797496d3bf47699ee5": {
+   "family": "ipninja",
+   "n_dev": 10894,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "134de67db93f331e01cda5e5979fe8a9c71208084e749342ccdcae194f4d3482": {
+   "family": "oxylabs",
+   "n_dev": 126073,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "1b7ae2da8942bb9d675603bb70b9ba8d4eb4b9376704a9474ec5a7681dc3325b": {
+   "family": "ipidea",
+   "n_dev": 35913,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "1b9b5a6a74943052c65d90b7fb23d7c604db5fa5260f3db3669f79a01e4fc223": {
+   "family": "monkeysocks",
+   "n_dev": 74899,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "2be8d94212f26b09784b4d04016213a26ff4d0505d6daf04b625ac78a626ab44": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "2e5bf0b6afc5ce1f95d43c457976bac941ebac12957277536a5b66b064d6e8c4": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "2eb09a500b10c6c2334c1cf84732bc76022cd8b5485ba144f345e283cda711c0": {
+   "family": "popa",
+   "n_dev": 33237,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "40b27be4e078eb81f13527c3e794494668b8adc3f45736346987544c31af38a4": {
+   "family": "ipninja",
+   "n_dev": 10894,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "465828d4e14b4afc7130a8362c89330bed1fa4b6631538fcbc7fe395bbe61642": {
+   "family": "popa",
+   "n_dev": 114099,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "517bb1b95f3bc868d202ed632726bb153aed68cda8d1832b5a1525d9218135f4": {
+   "family": "popa",
+   "n_dev": 31680,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "523c5a5f87377f1e45f7e3492c01476e8c7bf4dd986493623b46da7d55900abc": {
+   "family": "popa",
+   "n_dev": 49849,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "571f4ea76d2ca445d6b9846406b14be4bdbe540259b88f237990a9bcc3017ea3": {
+   "family": "oxylabs",
+   "n_dev": 122248,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5abc14f33886f8067ad9223be0e22f59d81c2d371b7f2994cb3d30e83a496efd": {
+   "family": "monkeysocks",
+   "n_dev": 74899,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6ded928efeea7213182f92020ebbab17fe36b640b0df8ee44dff4ec2f95d620f": {
+   "family": "traffmonetizer",
+   "n_dev": 26331,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "733d556cf0ac507e19b60d41898a4efecb74939c5326365e57933a1027c1f942": {
+   "family": "oxylabs",
+   "n_dev": 13401,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7e13709ca3d13bac16f6a8b5f4365328cb44a926af6ad75cf26c97cb42b19172": {
+   "family": "oxylabs",
+   "n_dev": 27522,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "7fee6cb98f0e9299f8775571127ff6b57afbf90fec9e37595a9e7c37ae03cdab": {
+   "family": "ipninja",
+   "n_dev": 66969,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "82ceb53f95b975368b90fe259293197a3d39f920368db0135300b4b90757a371": {
+   "family": "cashraven",
+   "n_dev": 106860,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "852428acc5f0bf8330cfd82b581aa9e4b5f70fbda8a4872b3e0bb037eeba0dfe": {
+   "family": "ipninja",
+   "n_dev": 74991,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "897bdddd26053501ccd0cbad7b57955d5a1b078b4f39866c26189db39b442d47": {
+   "family": "ipninja",
+   "n_dev": 10894,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "8bdbbf0cb823d3f3ca388b1690111764230e9f725600c054cbd85aa6ce646a8e": {
+   "family": "cashraven",
+   "n_dev": 60323,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "8f67b0545074ef1e552ade581cb2e0e30618fbe5b8584b53bdf9568eeb4158ae": {
+   "family": "ipidea",
+   "n_dev": 34534,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "a0c410b37a8315eb550f9e4a54e257f5e736df824616b5cbb191e31e2355c797": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "a94b584c85dc2b479562d8798af91fa4bf6e07201a2ec1bd0aec03ccc70fa0ec": {
+   "family": "traffmonetizer",
+   "n_dev": 41573,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "afb94485f40a03bdcc7dc7270a48c956d7b383367f96addb8e92b1c7ba425b61": {
+   "family": "monkeysocks",
+   "n_dev": 74899,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b2e46c7de532311e549bdc4d3a399c15fa1440d03db0d7d24bf19893841ce83d": {
+   "family": "luminati",
+   "n_dev": 27051,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c2f7ee12071b0136faa7ba39e4b52129c1d2fc7f9e69229a4f2dd1b041c7024f": {
+   "family": "ipidea",
+   "n_dev": 10696,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "c7f0b6db78012b9cb91ee46d16be1ee379839aabd52e5cb8f05525a2fdaba002": {
+   "family": "cashraven",
+   "n_dev": 91282,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c8081390ed0aec039baacec50c52075e9d628be850d573fcfc1ee03b8be9ce1c": {
+   "family": "cashraven",
+   "n_dev": 28133,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "d26c63225cac7781ee05ba992652b6bd9bdb1cf792c84308cdd1d0ad8d8e49ac": {
+   "family": "cashraven",
+   "n_dev": 106642,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d5f972cf76c3e8f152be5e5d9b7cbd94ff0e242c2ba6643377e209cb8c4b9eae": {
+   "family": "ipidea",
+   "n_dev": 24542,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "d793cb53d949a6a726dc8c4cc8650d81b9700d49d2ddb1b4bbb0a291d5f1da5c": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "dcb288e4e7e6d7fdabf899133c4b8d276bbbfb9f31238893376ed3514542e904": {
+   "family": "monkeysocks",
+   "n_dev": 74899,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e5068f7ad6b894085c071bbc7dca921627f1a7abf27b1e76023698e0efeff4c4": {
+   "family": "luminati",
+   "n_dev": 4642,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e6ea99ec563142f8e3e06baa196d4038b78d7079fb7941942deeb67e298ec8de": {
+   "family": "popa",
+   "n_dev": 27155,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ee3995789b5106519af93d466993841312edf30fd3c1ad1b4aa4a48e2783b8d0": {
+   "family": "monkeysocks",
+   "n_dev": 74920,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ef22faad78148f0ee6a562d132a311b5b6bfdc49387962fa19936aeffecd0be5": {
+   "family": "luminati",
+   "n_dev": 3983,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "fe445a3d90d55f69518897f6dc3a53af4db54d0c8efe1c0f6af8371bd6695fb6": {
+   "family": "luminati",
+   "n_dev": 3897,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "11403611c3c067bddc18ad617e5c43aeb9addc8ce2a02e92a8d86da4fd658263": {
+   "family": "ipidea",
+   "n_dev": 88098,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "125ee102dcc7c993a3656827fb7c054cdb550f4d5b44278bacff67af9c776641": {
+   "family": "luminati",
+   "n_dev": 27381,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "1321b8a68e413cf98c72ed83ad7f9a1a9b202c6d32a0b23dc3c20184845a8ed4": {
+   "family": "ipidea",
+   "n_dev": 65400,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "1c9053643d7c6446fb22963babf67c38df0244fcbf715f5b2814252ee949ba8b": {
+   "family": "ipidea",
+   "n_dev": 19257,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "26d71c736a3b024346475cf9d2d85f4ff08a029e995089be77defb2d1e6b0aec": {
+   "family": "monkeysocks",
+   "n_dev": 118005,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "27acc87bb12e8d3d03643f0c8515546f57d463dcc155da68feb6949f7d058f94": {
+   "family": "popa",
+   "n_dev": 12726,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  "2af63ed33e874f5a91b0a32d20c843d6024d38a19b1c8abc02d65e5b0b873817": {
+   "family": "cashraven",
+   "n_dev": 30919,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2fc47970b7dd0ae03692c3d47279bdac0e75743c23e2d55f0414f5009fb980ee": {
+   "family": "traffmonetizer",
+   "n_dev": 42149,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "3121b853ef1aae5975dca3ad4695af894bfbb0a14a24eb65f295703f3840c7f4": {
+   "family": "oxylabs",
+   "n_dev": 7025,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "3b0c4fb81d8acfd20f86314a33424a28ba29fa0335f9dab0d6b7c032c6e809fc": {
+   "family": "popa",
+   "n_dev": 81078,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "53347b041372431549a3c72126d2e99fb1ff38c8a9dfc07295fb4ce01e31f55c": {
+   "family": "popa",
+   "n_dev": 196475,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5379615c782660029491241195bab3896fd2126d087d2706b2b7a116e3b2840e": {
+   "family": "oxylabs",
+   "n_dev": 9817,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "54d3673656ed83a87303be5db808a4319c579816602bda12a1700d2d1e758cb0": {
+   "family": "ipninja",
+   "n_dev": 1298,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5a9d2e648df9c4e553f59a06ff710b867a3fa5fdef19e23f9731cbcab22f1a84": {
+   "family": "ipidea",
+   "n_dev": 65367,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5c52c9f8f0f8aeed7686b0ee21e05b5fcd8ededc9fceb5eef52bd87703e7ce2e": {
+   "family": "traffmonetizer",
+   "n_dev": 42145,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6d00e57bfa1e4dff386c9c1cfbb5a1e9a2722ed766b5965eb343d5d7d233bd8b": {
+   "family": "ipninja",
+   "n_dev": 28275,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6f6d7bd65d594bff2b1bf54b555b55a608468e6b160f0f5447358567f5af4a2a": {
+   "family": "traffmonetizer",
+   "n_dev": 27800,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "71cad693ae883ccf814c916a25f169a8a877b36234f395914f8c9acdaf3e9e3e": {
+   "family": "popa",
+   "n_dev": 55664,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "83877c37bb9560f8a0ee946e45fe8eec12a16163de11e343248bddf5535b5953": {
+   "family": "oxylabs",
+   "n_dev": 40118,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "8b8039e6c922e80922420f7e483c6f0bee45c42b9171dc911fc03e87f5b3a513": {
+   "family": "luminati",
+   "n_dev": 1687,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9a1853a71f1722b712b799f90f0788485449e031c2b38bb3dfcb7da466c745a3": {
+   "family": "cashraven",
+   "n_dev": 7239,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9c34730a03e6bd45e7f30ba3f5f48c1ed647bfba7b9023f0042eb928f7b6253a": {
+   "family": "oxylabs",
+   "n_dev": 6545,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9c8f175242ce855c31fa9ae67089d206b5f0e7265bddabe06a6eadc082e9bed5": {
+   "family": "oxylabs",
+   "n_dev": 123262,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9d1ad18dc0f5499437fd64c6e69fb339b4387033e1445722e61d095b8be155bf": {
+   "family": "ipninja",
+   "n_dev": 1298,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9ebad103fce0998053f2c7bb6c6a27f84b5f019471a161fc30d5508eaeac904b": {
+   "family": "luminati",
+   "n_dev": 15794,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "aca63ade487a51a1fb0a8b3cd3c490cd39a0879cfbdabeb303e334627d968522": {
+   "family": "ipidea",
+   "n_dev": 65122,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b6b2d8b67464c36d6d568eaaab48dcb41a589544a6e07b871801868bfd1be0b0": {
+   "family": "cashraven",
+   "n_dev": 7237,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "be78af92ed5726ac24c66e4c0cdf335eb56c5642980cd15c373aff11e13dc9fc": {
+   "family": "cashraven",
+   "n_dev": 85151,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c36b3d3ca6d12fb0015eb1d0e5b74806935d46998a434241dea889fe5977103d": {
+   "family": "popa",
+   "n_dev": 15290,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c51722e88567aee04bf25116b76b98e2c6ffb1faa88eae10eb87e22517cfd2d5": {
+   "family": "luminati",
+   "n_dev": 5858,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ce732e56531e58d61c3ebb0a0bf3216ac2b8dc46bd67b6bf5caf7029edd8bee7": {
+   "family": "oxylabs",
+   "n_dev": 34445,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "db21833fd971e18bf741837cfd45c8bd0219c52f4a02acaee5f5a5b66f01250b": {
+   "family": "oxylabs",
+   "n_dev": 6545,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e7c6317f97517fc0eb64340b12b0df288f6dc3506866dfeb27c499e53f71c274": {
+   "family": "ipninja",
+   "n_dev": 117411,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "f073d4d32b4bfc902d09dcaa90e61fde4de03e836b6a48ad89d9b7f573cf055a": {
+   "family": "ipidea",
+   "n_dev": 17010,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "f8f7729e453ac92178c70dc125a640d8a3ac1d3e4ff678c5a0e86787bebba4bf": {
+   "family": "traffmonetizer",
+   "n_dev": 42222,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "223d77c4487525972c963f30dbc72f61c852a81d20ed2f8e2e02c71bdeeb5f17": {
+   "family": "oxylabs",
+   "n_dev": 6860,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "254c463a10f1c8fe273299c6813430dfd0dd3eb95e1875aa82778498253bc300": {
+   "family": "oxylabs",
+   "n_dev": 14168,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "262adcbc0a1a2e61f5091b9e0641f06794460fc957af38d4f24d9d38625c1466": {
+   "family": "oxylabs",
+   "n_dev": 51052,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "28310a6a056cc1d90ac3353b705a0bb548bc1b6f5797c9b04a45ebba7a8cef12": {
+   "family": "traffmonetizer",
+   "n_dev": 41571,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "295ef4038f75b355a371e5249cae396d66ada3412616e5662b7e87805f5ed71b": {
+   "family": "oxylabs",
+   "n_dev": 12679,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "2b137c6e4e41b464eb9dab765abce9e5a919693f34b1b864e0e9c9c78b26251b": {
+   "family": "oxylabs",
+   "n_dev": 13314,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "395994f16e1eed729cc51ae0839376e558bd1b5407cb0b5676e457add578976d": {
+   "family": "ipidea",
+   "n_dev": 30515,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "39639aec3a8ed20cca69a5a13e7904625e99a7a595104c8c4b7d1880b44c8b04": {
+   "family": "monkeysocks",
+   "n_dev": 118962,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "39e87deb4ecc3b88e9270ff2c2e1471bc971576251bc60c2946e3cfed8e14301": {
+   "family": "cashraven",
+   "n_dev": 42212,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3b680954f336003f1b0cd4acc57d1b9530e01958d9e7f4c45bc5bf175a9d50fd": {
+   "family": "oxylabs",
+   "n_dev": 35715,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "516c94ace54e05ecbdf2fea662597e124bea17b68e8ecdbca10bb721dd6a1582": {
+   "family": "cashraven",
+   "n_dev": 20408,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "517901bc04f3806953500b7ad3744087a2a77dde2e174e788f34623fd311f046": {
+   "family": "ipninja",
+   "n_dev": 110073,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "5260aa2bac935d6f0a7ac326b78a9063d41aaecea3f29c4c2236e110d25ef21a": {
+   "family": "cashraven",
+   "n_dev": 91278,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "535fcce2c469a555949e9c2bbf5ac814cc6ac5f454b861b44a4a25700d2419b5": {
+   "family": "traffmonetizer",
+   "n_dev": 27566,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "53e8f0d7c6ec89af0b403d6f80cebcb1f976717235673516b3a5316a3c3aa979": {
+   "family": "ipninja",
+   "n_dev": 1219,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5b669b254ba82cd099db893223d7d9625f85c291a05e005c655c0bfd3e58a867": {
+   "family": "luminati",
+   "n_dev": 36194,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6380d507ab3aecf87df810928e08a7f9d19d325b39498bfc14dc8db3862bf7c7": {
+   "family": "popa",
+   "n_dev": 147612,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6de26844c7012abc4498226a4cf9ebe2d1dfc171539bf81182e65021e8aa084e": {
+   "family": "cashraven",
+   "n_dev": 91150,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "708392ecd43ae6c6bf45a8155c09823cb4b9d1086eb4ed9c1cfa2aee0f6633c0": {
+   "family": "popa",
+   "n_dev": 192089,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "74271bb2e5ac405b506d8dd456e4485780d253249524f026a707d5e4c018bb4e": {
+   "family": "monkeysocks",
+   "n_dev": 118962,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "838c7225b98e2bc6457e070e5620d7ddb25dc6e7141e2b4321b6d79f48b0c03c": {
+   "family": "luminati",
+   "n_dev": 17036,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9643758ebf9a8d7bf2b588ac81609b6e380cca3b15ff67e6e8e329d315469e04": {
+   "family": "ipidea",
+   "n_dev": 17806,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9c5eda617b1932f987363c89b7b812e5d5b1b6f89102c9810885c5f092cf18e4": {
+   "family": "cashraven",
+   "n_dev": 39871,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9de740245535e623e67c7c671f82b89ceaf5f79cc398877dcac2d0a41ea49271": {
+   "family": "traffmonetizer",
+   "n_dev": 15641,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "a8517d1156a326773959fb623ff3802b485d425fadad753f13080aeb28b2207e": {
+   "family": "ipidea",
+   "n_dev": 17182,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "acbcf125ae5fb308fedd88f48604ed1749276690f0e132f0293e0ac251b5ad31": {
+   "family": "cashraven",
+   "n_dev": 91095,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ae6e54472d886e628008ec92b4b5fec4f66348d294d2914f09a2fa029e1c12e5": {
+   "family": "ipidea",
+   "n_dev": 26236,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "bb9c2029d876be0ee6189eb6fd19ac23bdce71fa83eefeb3126508c2aec87b78": {
+   "family": "monkeysocks",
+   "n_dev": 118962,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "bfe89e29b58e4094c42e38468a7bd899561bee9b57c23a6b399b25b6eb45d0ae": {
+   "family": "ipninja",
+   "n_dev": 110073,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  "c0a69c328ec8a7a807bba28b17fc6cac585d91cbe48b50a38c3b7977c3a4dd02": {
+   "family": "ipninja",
+   "n_dev": 1219,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c425f88f9c083c2a1d15edeb16784cb25f15b2d18f33b9a27587476dbff57382": {
+   "family": "luminati",
+   "n_dev": 36329,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "c7f68f35e563f3cef817487f71e3c4d37def80cf4b32cc00ca09e0eb01398be9": {
+   "family": "ipninja",
+   "n_dev": 1219,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "cbe7663792b56d566c380d999a345fd0e9fa6e82b1f5e7628b475e83ca52251c": {
+   "family": "monkeysocks",
+   "n_dev": 118962,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d50d9f9f347ee5c715e5de7c338bbf52fb2c6b10fbd51047f9c9869328155baa": {
+   "family": "ipninja",
+   "n_dev": 28275,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d9f8fdc92381fe0b9df3af60b479ba380d87b19df1187c969aa665d4b6d0f729": {
+   "family": "luminati",
+   "n_dev": 6083,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "da4ec21bb42f5e007a276baf676ae0b7a002cec6ff16573728b303c7941ba950": {
+   "family": "luminati",
+   "n_dev": 34304,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e43b9623fd3d6de933da75f6e491639168e20bb2c8b563a15ca9565e792c4a9d": {
+   "family": "oxylabs",
+   "n_dev": 7050,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e4cd3e4d86b890887355c031f13ab1789ca454bc7153d39ec084eecb034a4441": {
+   "family": "cashraven",
+   "n_dev": 91853,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e94d614830ee165a8b653caf63052a2abe2986cb0c5942bfbc0452c5afa848f7": {
+   "family": "luminati",
+   "n_dev": 6151,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ed46f81e800b1ca959b9eafd1d0ba525dcaa0356afa6e8b7438587dc41d3bac0": {
+   "family": "popa",
+   "n_dev": 111516,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ef50dcee78d870d3706baa2b26bade188540917957fb8d9f80f5b221269506aa": {
+   "family": "luminati",
+   "n_dev": 3413,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "f66aeaa4d060d41152d711e92e21cf2530b606d681a40e0c46cc3baa053424c5": {
+   "family": "luminati",
+   "n_dev": 567,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "02f72a227da752a289a0d30267e30896518d3f5ce69f98f752f7becd479a20e0": {
+   "family": "traffmonetizer",
+   "n_dev": 244166,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "0b62ebf6a06dab69723f070735adfcaabeb9188bf3c6dc2d7581c68edd08659f": {
+   "family": "popa",
+   "n_dev": 85623,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "0e086372f97572bfe357c66528124ab0913d0cf7bde408295bdc1e50970291fa": {
+   "family": "ipninja",
+   "n_dev": 2499,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "1562a97401b5621ef240f1b0b8cd8cfa754cfabe11a006b7be9d38fe3eba8b43": {
+   "family": "traffmonetizer",
+   "n_dev": 28785,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "29df008d28180243edd82b9203ee57502247ea598800866c529e25e6de16d79f": {
+   "family": "ipidea",
+   "n_dev": 101334,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "32b1945bf1c78fa9bcce64c72bd3e805e5ad06763e9936dd1971c6e401da3a8d": {
+   "family": "ipninja",
+   "n_dev": 119514,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "3d1d491f12eb9fd146785133779cfd9fd4b8522309d5430bb681a7edefb09b35": {
+   "family": "cashraven",
+   "n_dev": 8776,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3f43f607c56f6c1668284e8ca44b3f532c9460ad8e742ad32f9fdaf4aba5497f": {
+   "family": "popa",
+   "n_dev": 66096,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "507eaf175be527f0848cbc6ef2bf83c67ce81aca0ff923b064328bd49089d30e": {
+   "family": "popa",
+   "n_dev": 140818,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "549a66741a606f2b27c1b0e8ea7fe2fad4709b47da5dbb89a5ffa0baf9fc4d38": {
+   "family": "ipidea",
+   "n_dev": 101782,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "5d488f76b9c9c6ecd1b8764484792418e172b0598c944b0ecfa9e4c235256c7a": {
+   "family": "monkeysocks",
+   "n_dev": 83768,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "60c56c8088a77bd2544be5eb9a4cae5b46bbc3ebf807e2fa54bcc372570bdc4f": {
+   "family": "ipidea",
+   "n_dev": 101324,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "67b20fbf5383cce4dd7f381f061010e6681b316ddf8c8ee62e793e3f1631e418": {
+   "family": "ipninja",
+   "n_dev": 119561,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  "6d0af244285d04c5572e65f7f8fc2ff62616c11e2a8b4cb8d315e72ba4676c8d": {
+   "family": "popa",
+   "n_dev": 141546,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "6ee52821ad8858c24bd4839e53ec0eb60bc3fb491831ccd898e1959f48d221f1": {
+   "family": "traffmonetizer",
+   "n_dev": 27857,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7086b408af424422ba85fe6a9e98507889003882120481d665c07c1ffd218b29": {
+   "family": "luminati",
+   "n_dev": 50508,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "76c1371fa0ea5ac553b40732451dddf7c509f2419be38a9afcfe551d4b7d1e62": {
+   "family": "oxylabs",
+   "n_dev": 7439,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "78e65dc70d87f8e4d122144246e0c19c20f93c9ea84062dc29602b876c0200a7": {
+   "family": "popa",
+   "n_dev": 17980,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "79b231965ea3bf15ca953f39a3f1d23984d1bdea83a340f697409e20b2a5ffa6": {
+   "family": "oxylabs",
+   "n_dev": 12068,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7c75a78ff980e8090386ac2c9b0be71053071fb72987bcafb50778da5791f2fc": {
+   "family": "popa",
+   "n_dev": 63648,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "7d0284f97762e2abeb5318a9227687f033b9424d9cf05621378d8677ab17b9c3": {
+   "family": "popa",
+   "n_dev": 141140,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "84a25efc9372358ce75017c848299bb106ccf8b209bb88d6d3697cdca29d43b7": {
+   "family": "luminati",
+   "n_dev": 53798,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9ac5be209cd8f2a4496e5e96e668266d8eb4b66035fde84b104ad00351d3d6e3": {
+   "family": "luminati",
+   "n_dev": 1688,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "9db8140779c34c9d6024142206d8c0418fa412fd0c142cd4ce0d4fda7d84ef87": {
+   "family": "traffmonetizer",
+   "n_dev": 4039,
+   "p0_matches_packed": true,
+   "attr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "b1dcd8ec8670fa93c73dc9537817ab301940ec5a5593ad3cba28ee0caa95b69b": {
+   "family": "ipidea",
+   "n_dev": 100962,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b2afceb9e8603cca5759f82790618f15929fa8848b10286919f82f5a68acfc15": {
+   "family": "cashraven",
+   "n_dev": 20649,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "b450cdfe9d65ec80f95948769c7380b4420499313c60b1abbb6bb4be75017eb3": {
+   "family": "ipninja",
+   "n_dev": 10913,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "bc0e7033dbaa6a0258b5877ef2aa35a161b7021d0fa2d89ee2de8388d1812a8b": {
+   "family": "popa",
+   "n_dev": 14910,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "c16b5349b3cdd1e2355ebb0f4c6d8d8c1398505f4992a37421e6fd5807d56b94": {
+   "family": "cashraven",
+   "n_dev": 91266,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ce77d8e870d453a873c4453e7da322ea2f8375b27e43622da281beaef1e90d23": {
+   "family": "popa",
+   "n_dev": 89011,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "ce7b64e45f6c109a08750ce2be714ee09fb922c5d57b67bc4b0cfcb79e68dc47": {
+   "family": "ipninja",
+   "n_dev": 10913,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "d4ba6b04ff0e4098c4c739e4429c0bb54e0646559dc357ae67df096c8529dfb2": {
+   "family": "oxylabs",
+   "n_dev": 7908,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "dbc33964e308c90ccad38f648f623c500994232e718fef4723752ee32585ea6f": {
+   "family": "luminati",
+   "n_dev": 38208,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "dc2cf3a9d943c07872a47ab91de437c98b0ade5ec858758c4be12ffa623dba6a": {
+   "family": "cashraven",
+   "n_dev": 22422,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "df3393ac3c5b027284d73eed6cfdc26c7ca01744fa52672856ab44be1d6e7c7b": {
+   "family": "cashraven",
+   "n_dev": 106642,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e18fe4bc28baf9a3fe573e4d3124b726ca5ba6e8a9382b93154d881935c0d92e": {
+   "family": "popa",
+   "n_dev": 113856,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e3692fa4d086fe50cd7299c1c83118ee52d60bd1e5dc3e89ad6ed5cf3b254bea": {
+   "family": "ipninja",
+   "n_dev": 66969,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "e7af7fe585667127901d9aec9426736326b3e8b9307d1f66cd05b27ad405c35f": {
+   "family": "ipidea",
+   "n_dev": 101056,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "e89c6b73d932a20fe2d343b9d3292f9ed7a87a1ce8d2b70062f88f780b6f58d7": {
+   "family": "luminati",
+   "n_dev": 10624,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04": {
+   "family": "ipninja",
+   "n_dev": 1082,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "fbd72db3a8d65831ab2a12366c675b35f9accbff6eae955fa991961980f79db1": {
+   "family": "ipninja",
+   "n_dev": 119574,
+   "p0_matches_packed": true,
+   "attr": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rand": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  }
+ },
+ "summary": {
+  "n": 192,
+  "p0_matches_packed": 192,
+  "attr": [
+   0.9479166666666666,
+   0.3177083333333333,
+   0.07291666666666667,
+   0.041666666666666664,
+   0.005208333333333333,
+   0.0
+  ],
+  "rand": [
+   0.9479166666666666,
+   0.9479166666666666,
+   0.9479166666666666,
+   0.9479166666666666,
+   0.921875,
+   0.8333333333333334
+  ],
+  "per_family": {
+   "traffmonetizer": {
+    "n": 17,
+    "attr": [
+     0.8235294117647058,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     0.8235294117647058,
+     0.8235294117647058,
+     0.8235294117647058,
+     0.8235294117647058,
+     0.7647058823529411,
+     0.47058823529411764
+    ]
+   },
+   "ipninja": {
+    "n": 25,
+    "attr": [
+     1.0,
+     0.56,
+     0.28,
+     0.24,
+     0.04,
+     0.0
+    ],
+    "rand": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.92,
+     0.92
+    ]
+   },
+   "ipidea": {
+    "n": 25,
+    "attr": [
+     0.96,
+     0.12,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     0.96,
+     0.96,
+     0.96,
+     0.96,
+     0.92,
+     0.84
+    ]
+   },
+   "cashraven": {
+    "n": 25,
+    "attr": [
+     0.84,
+     0.16,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     0.84,
+     0.84,
+     0.84,
+     0.8,
+     0.8,
+     0.72
+    ]
+   },
+   "monkeysocks": {
+    "n": 25,
+    "attr": [
+     1.0,
+     0.48,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "oxylabs": {
+    "n": 25,
+    "attr": [
+     0.96,
+     0.64,
+     0.08,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     0.96,
+     0.96,
+     0.96,
+     0.96,
+     0.96,
+     0.8
+    ]
+   },
+   "luminati": {
+    "n": 25,
+    "attr": [
+     1.0,
+     0.48,
+     0.2,
+     0.08,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.96
+    ]
+   },
+   "popa": {
+    "n": 25,
+    "attr": [
+     0.96,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rand": [
+     0.96,
+     0.96,
+     0.96,
+     1.0,
+     0.96,
+     0.84
+    ]
+   }
+  }
+ }
+}

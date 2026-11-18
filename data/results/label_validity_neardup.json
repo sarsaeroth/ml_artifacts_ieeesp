@@ -1,0 +1,158 @@
+{
+ "full": {
+  "dropped": 0,
+  "n": 3777,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 205,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 1125,
+   "oxylabs": 91,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.7215943190616441,
+  "macro_f1_sd": 0.10756086323223825,
+  "per_family_f1": {
+   "cashraven": 0.22197699562916953,
+   "ipidea": 0.9009020244482885,
+   "ipninja": 0.8771406371406373,
+   "luminati": 0.9299669042820676,
+   "monkeysocks": 0.9447198866341481,
+   "oxylabs": 0.8364007735989037,
+   "popa": 0.7003774894900953,
+   "traffmonetizer": 0.36126984126984124
+  }
+ },
+ "minus_monkeysocks_dormant": {
+  "dropped": 1095,
+  "n": 2682,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 205,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 30,
+   "oxylabs": 91,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.725088274934636,
+  "macro_f1_sd": 0.0601244984463887,
+  "per_family_f1": {
+   "cashraven": 0.17260504390939171,
+   "ipidea": 0.9103817963038583,
+   "ipninja": 0.8048484848484847,
+   "luminati": 0.9294271075989113,
+   "monkeysocks": 0.9624242424242423,
+   "oxylabs": 0.8725539463656342,
+   "popa": 0.7138624034233895,
+   "traffmonetizer": 0.4346031746031746
+  }
+ },
+ "minus_oxylabs_no_code": {
+  "dropped": 15,
+  "n": 3762,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 205,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 1125,
+   "oxylabs": 76,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.707577598438749,
+  "macro_f1_sd": 0.10072322951533683,
+  "per_family_f1": {
+   "cashraven": 0.22431990231990231,
+   "ipidea": 0.8905853766136047,
+   "ipninja": 0.8387878787878787,
+   "luminati": 0.9273628562285094,
+   "monkeysocks": 0.8996686455307145,
+   "oxylabs": 0.8367680922456165,
+   "popa": 0.697413750069479,
+   "traffmonetizer": 0.3457142857142857
+  }
+ },
+ "minus_ipidea_ninevpn_only": {
+  "dropped": 88,
+  "n": 3689,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 117,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 1125,
+   "oxylabs": 91,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.7205214507518557,
+  "macro_f1_sd": 0.11837332615439933,
+  "per_family_f1": {
+   "cashraven": 0.2785532342054081,
+   "ipidea": 0.796118721115926,
+   "ipninja": 0.7990261590261589,
+   "luminati": 0.9324221012564988,
+   "monkeysocks": 0.9289463967405143,
+   "oxylabs": 0.8642234290824227,
+   "popa": 0.711548231254584,
+   "traffmonetizer": 0.45333333333333325
+  }
+ },
+ "minus_monkeysocks_no_code": {
+  "dropped": 1,
+  "n": 3776,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 205,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 1124,
+   "oxylabs": 91,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.7106907209435998,
+  "macro_f1_sd": 0.10429078421922634,
+  "per_family_f1": {
+   "cashraven": 0.2283028083028083,
+   "ipidea": 0.8993460315408872,
+   "ipninja": 0.83993783993784,
+   "luminati": 0.9464152254623682,
+   "monkeysocks": 0.883219401288367,
+   "oxylabs": 0.8135758878756568,
+   "popa": 0.73414249255479,
+   "traffmonetizer": 0.34058608058608064
+  }
+ },
+ "minus_all": {
+  "dropped": 1199,
+  "n": 2578,
+  "per_family_n": {
+   "cashraven": 39,
+   "ipidea": 117,
+   "ipninja": 37,
+   "luminati": 2085,
+   "monkeysocks": 29,
+   "oxylabs": 76,
+   "popa": 178,
+   "traffmonetizer": 17
+  },
+  "macro_f1": 0.7366719803535176,
+  "macro_f1_sd": 0.08484751099122638,
+  "per_family_f1": {
+   "cashraven": 0.28385770750988143,
+   "ipidea": 0.829509166985135,
+   "ipninja": 0.8384459984459983,
+   "luminati": 0.9331641996084721,
+   "monkeysocks": 0.9804713804713805,
+   "oxylabs": 0.8475258729461629,
+   "popa": 0.7233074997670939,
+   "traffmonetizer": 0.45709401709401715
+  }
+ }
+}

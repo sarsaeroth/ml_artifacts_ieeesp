@@ -1,0 +1,637 @@
+{
+ "per_fam_sampled": {
+  "ipninja": 25,
+  "luminati": 25,
+  "monkeysocks": 25,
+  "oxylabs": 25,
+  "cashraven": 25,
+  "ipidea": 25,
+  "popa": 25,
+  "traffmonetizer": 17
+ },
+ "top_fam": 10,
+ "top_global": 20,
+ "ranked_before_dedup": 100,
+ "ranked_after_dedup": 90,
+ "entry_points": 94,
+ "entry_apps": 19,
+ "slice_methods": 696,
+ "slice_methods_nonlib": 400,
+ "ranked_sdk_share": 0.044444444444444446,
+ "per_family_top": {
+  "ipninja": [
+   {
+    "method": "Lorg/java_websocket/server/WebSocketServer$WebSocketWorker$1;-><init>(Lorg/java_websocket/server/WebSocketServer$WebSocketWorker; Lorg/java_websocket/server/WebSocketServer;)V",
+    "credit": 0.9236281939371287,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+    "credit": 0.6770246604225755,
+    "is_sdk": true
+   },
+   {
+    "method": "Lorg/java_websocket/drafts/Draft$HandshakeState;->clone()Ljava/lang/Object;",
+    "credit": 0.6728335021722148,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/client/WebSocketClient;->onWebsocketClose(Lorg/java_websocket/WebSocket; I Ljava/lang/String; Z)V",
+    "credit": 0.6255775729864954,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/server/WebSocketServer;-><init>()V",
+    "credit": 0.5938031257679752,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/WebSocketListener;->onWebsocketHandshakeReceivedAsServer(Lorg/java_websocket/WebSocket; Lorg/java_websocket/drafts/Draft; Lorg/java_websocket/handshake/ClientHandshake;)Lorg/java_websocket/handshake/ServerHandshakeBuilder;",
+    "credit": 0.5779097998904542,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/client/WebSocketClient;->closeBlocking()V",
+    "credit": 0.5547667847334745,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/server/WebSocketServer;->setReuseAddr(Z)V",
+    "credit": 0.5545787446220415,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/server/WebSocketServer;->addConnection(Lorg/java_websocket/WebSocket;)Z",
+    "credit": 0.5345375955365246,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/java_websocket/WebSocketAdapter;->onWebsocketPong(Lorg/java_websocket/WebSocket; Lorg/java_websocket/framing/Framedata;)V",
+    "credit": 0.5140573828869922,
+    "is_sdk": false
+   }
+  ],
+  "luminati": [
+   {
+    "method": "Lorg/xmlpull/v1/XmlPullParserException;-><init>(Ljava/lang/String;)V",
+    "credit": 0.34862184808586016,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/util/XmlDom;->getElement()Lorg/w3c/dom/Element;",
+    "credit": 0.32954490928293445,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/AbstractAQuery;->invoke(Ljava/lang/String; [Ljava/lang/Class; [Ljava/lang/Object;)Ljava/lang/Object;",
+    "credit": 0.25536187767727836,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/auth/AccountHandle;->failure(Landroid/content/Context; I Ljava/lang/String;)V",
+    "credit": 0.25323287946824813,
+    "is_sdk": false
+   },
+   {
+    "method": "Lorg/xmlpull/v1/XmlPullParser;->setInput(Ljava/io/InputStream; Ljava/lang/String;)V",
+    "credit": 0.24918570665664644,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/util/XmlDom;->child(Ljava/lang/String;)Lcom/androidquery/util/XmlDom;",
+    "credit": 0.24800672881063504,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/callback/AjaxStatus;->getClient()Lorg/apache/http/impl/client/DefaultHttpClient;",
+    "credit": 0.2470148356015621,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/AbstractAQuery;->progress(Landroid/app/Dialog;)Lcom/androidquery/AbstractAQuery;",
+    "credit": 0.2446796669551923,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/AbstractAQuery;->longClick()Lcom/androidquery/AbstractAQuery;",
+    "credit": 0.24463531533550684,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/androidquery/util/WebImage$1;-><init>(Lcom/androidquery/util/WebImage;)V",
+    "credit": 0.2423307824117718,
+    "is_sdk": false
+   }
+  ],
+  "monkeysocks": [
+   {
+    "method": "Lcom/unit/two/c/q;-><init>(Lcom/unit/two/c/o;)V",
+    "credit": 0.18087360333703809,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/vungle/publisher/ra;->a(Lcom/vungle/publisher/vs;)Lorg/json/JSONObject;",
+    "credit": 0.17041957061666907,
+    "is_sdk": false
+   },
+   {
+    "method": "Lmf/org/w3c/dom/html/HTMLTableCellElement;->setCellIndex(I)V",
+    "credit": 0.16380023115847456,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;->getLMv2Hash()[B",
+    "credit": 0.16144445238747238,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/appsgeyser/sdk/server/implementation/AppsgeyserServerClient;->sendAboutDialogImpression(Landroid/content/Context;)V",
+    "credit": 0.1571486043215562,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/splunk/mint/Mint$1;-><init>(Landroid/app/Application; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/splunk/mint/ActionEvent;)V",
+    "credit": 0.1556959190322178,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcz/msebera/android/httpclient/client/protocol/RequestAcceptEncoding;->process(Lcz/msebera/android/httpclient/HttpRequest; Lcz/msebera/android/httpclient/protocol/HttpContext;)V",
+    "credit": 0.1554607032048457,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/mopub/mobileads/FacebookInterstitial;->onInvalidate()V",
+    "credit": 0.153749450081854,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/stepleaderdigital/reveal/CycledLeScannerForJellyBeanMr2$2;->run()V",
+    "credit": 0.1520803990848933,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/AudienceNetworkActivity$BackButtonInterceptor;->interceptBackButton()Z",
+    "credit": 0.1496827707561428,
+    "is_sdk": false
+   }
+  ],
+  "oxylabs": [
+   {
+    "method": "Lcom/koushikdutta/async/http/spdy/SpdyMiddleware;->noSpdy(Ljava/lang/String;)V",
+    "credit": 0.45956007632592877,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/HttpDate;-><clinit>()V",
+    "credit": 0.44775361446752443,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/spdy/AsyncSpdyConnection$SpdySocket;-><init>(Lcom/koushikdutta/async/http/spdy/AsyncSpdyConnection; I Z Z Ljava/util/List;)V",
+    "credit": 0.42543604382524786,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/AsyncSSLSocket;->getPeerCertificates()[Ljava/security/cert/X509Certificate;",
+    "credit": 0.4192013813451443,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/AsyncDatagramSocket;->setDataCallback(Lcom/koushikdutta/async/callback/DataCallback;)V",
+    "credit": 0.4148370159636923,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/body/FilePart$1;-><init>(Ljava/io/File;)V",
+    "credit": 0.41187472193847474,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/ArrayDeque;->removeLast()Ljava/lang/Object;",
+    "credit": 0.4035630211635556,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/filter/ChunkedInputFilter$1;-><clinit>()V",
+    "credit": 0.39810506523004685,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/socketio/SocketIOConnection;->access$200(Lcom/koushikdutta/async/http/socketio/SocketIOConnection; Ljava/lang/String; Lcom/koushikdutta/async/http/socketio/SocketIOConnection$SelectCallback;)V",
+    "credit": 0.39305532526626846,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/koushikdutta/async/http/spdy/ByteString;->decodeHexDigit(C)I",
+    "credit": 0.38821007049820305,
+    "is_sdk": false
+   }
+  ],
+  "cashraven": [
+   {
+    "method": "Lcom/facebook/ads/NativeAdScrollView$AdViewProvider;->createView(Lcom/facebook/ads/NativeAd; I)Landroid/view/View;",
+    "credit": 0.2369937844072619,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/NativeAdViewAttributes;->getButtonColor()I",
+    "credit": 0.2354692758328466,
+    "is_sdk": false
+   },
+   {
+    "method": "Lio/cashraven/sdk/ForegroundService;-><init>()V",
+    "credit": 0.20800433175722283,
+    "is_sdk": true
+   },
+   {
+    "method": "Lcom/facebook/ads/AbstractAdListener;->onRewardedVideoClosed()V",
+    "credit": 0.20166873708685587,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/internal/api/RewardedInterstitialAdApi;->registerAdCompanionView(Lcom/facebook/ads/internal/api/AdCompanionView;)V",
+    "credit": 0.19019622380990261,
+    "is_sdk": false
+   },
+   {
+    "method": "Lio/cashraven/sdk/ForegroundService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;",
+    "credit": 0.18725288468147638,
+    "is_sdk": true
+   },
+   {
+    "method": "Lcom/facebook/ads/MediaViewListener;->onExitFullscreen(Lcom/facebook/ads/MediaView;)V",
+    "credit": 0.184437056177283,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/AdExperienceType;-><clinit>()V",
+    "credit": 0.18125208895411568,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/internal/api/MediaViewVideoRendererApi;->play(Lcom/facebook/ads/VideoStartReason;)V",
+    "credit": 0.18032209344973651,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/MediaViewVideoRenderer;->onVolumeChanged()V",
+    "credit": 0.17300995992702078,
+    "is_sdk": false
+   }
+  ],
+  "ipidea": [
+   {
+    "method": "Lcom/facebook/ads/NativeAdBase;->unregisterView()V",
+    "credit": 0.17695457527943192,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/AudienceNetworkAds;-><init>()V",
+    "credit": 0.17627832401308363,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/AudienceNetworkContentProvider;->update(Landroid/net/Uri; Landroid/content/ContentValues; Ljava/lang/String; [Ljava/lang/String;)I",
+    "credit": 0.1755344560499563,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/Ad;->loadAd()V",
+    "credit": 0.168338909880906,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/RewardData;-><init>(Ljava/lang/String; Ljava/lang/String;)V",
+    "credit": 0.1522009574203805,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/internal/api/AdNativeComponentView$1;-><init>(Lcom/facebook/ads/internal/api/AdNativeComponentView;)V",
+    "credit": 0.14939477013106559,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/NativeAd;->getNativeAdApi()Lcom/facebook/ads/internal/api/NativeAdApi;",
+    "credit": 0.14906571670613458,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/youth/banner/listener/OnPageChangeListener;->onPageScrolled(I F I)V",
+    "credit": 0.14786085400823484,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/chad/library/adapter/base/module/BaseLoadMoreModule;->isLoadEndMoreGone()Z",
+    "credit": 0.14645799886713234,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/chad/library/adapter/base/BaseQuickAdapter;->setOnItemClick(Landroid/view/View; I)V",
+    "credit": 0.14487672149270076,
+    "is_sdk": false
+   }
+  ],
+  "popa": [
+   {
+    "method": "Lcom/unity3d/ads/BuildConfig;-><init>()V",
+    "credit": 0.11627413588493173,
+    "is_sdk": false
+   },
+   {
+    "method": "Lsun/misc/Unsafe;->getUnsafe()Lsun/misc/Unsafe;",
+    "credit": 0.11179395491177939,
+    "is_sdk": false
+   },
+   {
+    "method": "Lsun/misc/Unsafe;->getObject(Ljava/lang/Object; J)Ljava/lang/Object;",
+    "credit": 0.10336513527618724,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/applovin/mediation/adapter/listeners/MaxRewardedInterstitialAdapterListener;->onRewardedInterstitialAdClicked()V",
+    "credit": 0.10159666272181335,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->toString()Ljava/lang/String;",
+    "credit": 0.10008101005637421,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/unity3d/services/core/sensorinfo/SensorInfoError;->valueOf(Ljava/lang/String;)Lcom/unity3d/services/core/sensorinfo/SensorInfoError;",
+    "credit": 0.09787961934806078,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/facebook/ads/VideoAutoplayBehavior;-><clinit>()V",
+    "credit": 0.09617244045891439,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/applovin/impl/communicator/CommunicatorMessageImpl;->toString()Ljava/lang/String;",
+    "credit": 0.09298610528787114,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/applovin/sdk/AppLovinSdkUtils$Size;-><init>()V",
+    "credit": 0.0925532668578617,
+    "is_sdk": false
+   },
+   {
+    "method": "Lcom/applovin/impl/sdk/AppLovinAdBase;->containsKeyForAdObject(Ljava/lang/String;)Z",
+    "credit": 0.0903225873300228,
+    "is_sdk": false
+   }
+  ],
+  "traffmonetizer": [
+   {
+    "method": "Lkotlinx/coroutines/ThreadState;-><clinit>()V",
+    "credit": 0.26385283660961806,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$Core;-><clinit>()V",
+    "credit": 0.22772716431482987,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/FlowKt;->consumeAsFlow(Lkotlinx/coroutines/channels/ReceiveChannel;)Lkotlinx/coroutines/flow/Flow;",
+    "credit": 0.18903369877015977,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/FlowKt;->onErrorResumeNext(Lkotlinx/coroutines/flow/Flow; Lkotlinx/coroutines/flow/Flow;)Lkotlinx/coroutines/flow/Flow;",
+    "credit": 0.18323149677747136,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/internal/NoOpContinuation;-><clinit>()V",
+    "credit": 0.17925537007341555,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/FlowKt__CountKt$count$4$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__CountKt$count$4; Lkotlin/coroutines/Continuation;)V",
+    "credit": 0.170032132316617,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/internal/WeakMapCtorCache;-><init>()V",
+    "credit": 0.1681294953768908,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/FlowKt;->subscribe(Lkotlinx/coroutines/flow/Flow; Lkotlin/jvm/functions/Function2;)V",
+    "credit": 0.1608695161544944,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/flow/FlowKt__DistinctKt$defaultKeySelector$1;-><init>()V",
+    "credit": 0.1594051153912321,
+    "is_sdk": false
+   },
+   {
+    "method": "Lkotlinx/coroutines/JobImpl;->complete()Z",
+    "credit": 0.15817480714648324,
+    "is_sdk": false
+   }
+  ]
+ },
+ "global_top": [
+  {
+   "method": "Lorg/java_websocket/server/WebSocketServer$WebSocketWorker$1;-><init>(Lorg/java_websocket/server/WebSocketServer$WebSocketWorker; Lorg/java_websocket/server/WebSocketServer;)V",
+   "credit": 0.9236281939371287
+  },
+  {
+   "method": "Lcom/ipninja/sdk/LongRunningTask$a;-><init>()V",
+   "credit": 0.6770246604225755
+  },
+  {
+   "method": "Lorg/java_websocket/drafts/Draft$HandshakeState;->clone()Ljava/lang/Object;",
+   "credit": 0.6728335021722148
+  },
+  {
+   "method": "Lorg/java_websocket/client/WebSocketClient;->onWebsocketClose(Lorg/java_websocket/WebSocket; I Ljava/lang/String; Z)V",
+   "credit": 0.6351394491633892
+  },
+  {
+   "method": "Lorg/java_websocket/server/WebSocketServer;-><init>()V",
+   "credit": 0.5919379936259377
+  },
+  {
+   "method": "Lorg/java_websocket/WebSocketListener;->onWebsocketHandshakeReceivedAsServer(Lorg/java_websocket/WebSocket; Lorg/java_websocket/drafts/Draft; Lorg/java_websocket/handshake/ClientHandshake;)Lorg/java_websocket/handshake/ServerHandshakeBuilder;",
+   "credit": 0.580619320118812
+  },
+  {
+   "method": "Lorg/java_websocket/server/WebSocketServer;->setReuseAddr(Z)V",
+   "credit": 0.5545787446220415
+  },
+  {
+   "method": "Lorg/java_websocket/client/WebSocketClient;->closeBlocking()V",
+   "credit": 0.5534731619853126
+  },
+  {
+   "method": "Lorg/java_websocket/server/WebSocketServer;->addConnection(Lorg/java_websocket/WebSocket;)Z",
+   "credit": 0.5325286416372931
+  },
+  {
+   "method": "Lorg/java_websocket/WebSocketAdapter;->onWebsocketPong(Lorg/java_websocket/WebSocket; Lorg/java_websocket/framing/Framedata;)V",
+   "credit": 0.5181116595176264
+  },
+  {
+   "method": "Lorg/java_websocket/client/WebSocketClient$WebsocketWriteThread;-><init>(Lorg/java_websocket/client/WebSocketClient;)V",
+   "credit": 0.5066994048295825
+  },
+  {
+   "method": "Lorg/java_websocket/WebSocketImpl;->setAttachment(Ljava/lang/Object;)V",
+   "credit": 0.5038142015882086
+  },
+  {
+   "method": "Lorg/java_websocket/framing/Framedata;->isRSV2()Z",
+   "credit": 0.5036947652674524
+  },
+  {
+   "method": "Lorg/java_websocket/framing/FramedataImpl1;->getOpcode()Lorg/java_websocket/framing/Framedata$Opcode;",
+   "credit": 0.5027401438086082
+  },
+  {
+   "method": "Lorg/java_websocket/extensions/DefaultExtension;->getProvidedExtensionAsClient()Ljava/lang/String;",
+   "credit": 0.4995353885135571
+  },
+  {
+   "method": "Lorg/java_websocket/WebSocketImpl;->closeConnection(I Ljava/lang/String; Z)V",
+   "credit": 0.4969484777959167
+  },
+  {
+   "method": "Lorg/java_websocket/WebSocketImpl;->decodeFrames(Ljava/nio/ByteBuffer;)V",
+   "credit": 0.4765997765130778
+  },
+  {
+   "method": "Lcom/ipninja/sdk/SettingsActivity;->a(Lcom/ipninja/sdk/SettingsActivity; Z)V",
+   "credit": 0.4704600958080549
+  },
+  {
+   "method": "Lorg/java_websocket/server/WebSocketServer;->getAddress()Ljava/net/InetSocketAddress;",
+   "credit": 0.4697774211839342
+  },
+  {
+   "method": "Lorg/java_websocket/client/WebSocketClient;->isTcpNoDelay()Z",
+   "credit": 0.4685044273719632
+  }
+ ],
+ "per_app": {
+  "062655ea9af4f001f5d1283fa3bcb6576068828c7987aebc20cbf39278e81e50": {
+   "family": "luminati",
+   "entry_points": 2,
+   "slice_methods": 2,
+   "slice_methods_nonlib": 2
+  },
+  "06a2305c2934174730deede9ea261c4b66bcc4c037078e22dabf35fd8f622276": {
+   "family": "ipidea",
+   "entry_points": 7,
+   "slice_methods": 10,
+   "slice_methods_nonlib": 9
+  },
+  "12adf5f2ec652045ea5d419ec2d9f688f4e050639f55333df40c95d6873087c3": {
+   "family": "traffmonetizer",
+   "entry_points": 4,
+   "slice_methods": 19,
+   "slice_methods_nonlib": 14
+  },
+  "1562a97401b5621ef240f1b0b8cd8cfa754cfabe11a006b7be9d38fe3eba8b43": {
+   "family": "traffmonetizer",
+   "entry_points": 4,
+   "slice_methods": 13,
+   "slice_methods_nonlib": 8
+  },
+  "2eb09a500b10c6c2334c1cf84732bc76022cd8b5485ba144f345e283cda711c0": {
+   "family": "popa",
+   "entry_points": 3,
+   "slice_methods": 5,
+   "slice_methods_nonlib": 3
+  },
+  "51f10bfe857ca0d8eee27a443d750e7d91538a6c06bc3ccdf60ccbcbd35cee67": {
+   "family": "oxylabs",
+   "entry_points": 10,
+   "slice_methods": 41,
+   "slice_methods_nonlib": 25
+  },
+  "69d5d46010d096264acccaebbd38564416609ac1872c1138af84fe5ea9b36cbb": {
+   "family": "monkeysocks",
+   "entry_points": 1,
+   "slice_methods": 2,
+   "slice_methods_nonlib": 1
+  },
+  "91fe792ba6fd3044a024e0622b9ef3880823ad7cb4d964e0c839c88322cbe989": {
+   "family": "ipidea",
+   "entry_points": 1,
+   "slice_methods": 1,
+   "slice_methods_nonlib": 1
+  },
+  "9cde3e5c8d6ab308f8dd8a492a816cfb64934fcc00d9ee4fbc8a5cf09224fc6d": {
+   "family": "popa",
+   "entry_points": 6,
+   "slice_methods": 17,
+   "slice_methods_nonlib": 9
+  },
+  "9cfa74908006c2bc5a2d0913a4a07fc86a6190f35ed9ee98d8247a054a946587": {
+   "family": "popa",
+   "entry_points": 1,
+   "slice_methods": 1,
+   "slice_methods_nonlib": 1
+  },
+  "9db8140779c34c9d6024142206d8c0418fa412fd0c142cd4ce0d4fda7d84ef87": {
+   "family": "traffmonetizer",
+   "entry_points": 6,
+   "slice_methods": 15,
+   "slice_methods_nonlib": 8
+  },
+  "9e9dfe56adb910e95103f03f035a897f9b645a8c54e53ed00119aff6aa6e6790": {
+   "family": "ipidea",
+   "entry_points": 2,
+   "slice_methods": 21,
+   "slice_methods_nonlib": 3
+  },
+  "b6b2d8b67464c36d6d568eaaab48dcb41a589544a6e07b871801868bfd1be0b0": {
+   "family": "cashraven",
+   "entry_points": 1,
+   "slice_methods": 2,
+   "slice_methods_nonlib": 1
+  },
+  "c7f68f35e563f3cef817487f71e3c4d37def80cf4b32cc00ca09e0eb01398be9": {
+   "family": "ipninja",
+   "entry_points": 2,
+   "slice_methods": 13,
+   "slice_methods_nonlib": 7
+  },
+  "d02680f5f1e5ac66d036e29e6d3858d1e69fc213b13d919e10e256af83b37fcf": {
+   "family": "luminati",
+   "entry_points": 2,
+   "slice_methods": 4,
+   "slice_methods_nonlib": 3
+  },
+  "d9bdeafb19e492b951831565acf09e4b7fdaa6b58eb9371f0d2af58a2fc241ce": {
+   "family": "cashraven",
+   "entry_points": 9,
+   "slice_methods": 14,
+   "slice_methods_nonlib": 11
+  },
+  "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04": {
+   "family": "ipninja",
+   "entry_points": 18,
+   "slice_methods": 124,
+   "slice_methods_nonlib": 74
+  },
+  "f7f1942a982273f194cfe4ed1c4445f4fd03931e681a4f82697ad0e27525ecd6": {
+   "family": "luminati",
+   "entry_points": 6,
+   "slice_methods": 127,
+   "slice_methods_nonlib": 70
+  },
+  "ffb565dac16b17c2b2993138a37595bba5de0e2faf177447e42a315e084e14e1": {
+   "family": "monkeysocks",
+   "entry_points": 9,
+   "slice_methods": 265,
+   "slice_methods_nonlib": 150
+  }
+ }
+}

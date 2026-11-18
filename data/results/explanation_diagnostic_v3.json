@@ -1,0 +1,106 @@
+{
+ "providers": {
+  "ipninja": {
+   "sdk_only_f1": 1.0,
+   "sdk_necessity": 0.01129629629629647,
+   "sdk_share": 0.03619324608175796,
+   "p_at_25": 0.08,
+   "core_within_3": 0.12,
+   "core_reached": 0.536
+  },
+  "luminati": {
+   "sdk_only_f1": 0.9281040694705461,
+   "sdk_necessity": 0.01345201910940752,
+   "sdk_share": 0.09717405695379697,
+   "p_at_25": 0.92,
+   "core_within_3": 0.144,
+   "core_reached": 0.464
+  },
+  "monkeysocks": {
+   "sdk_only_f1": 0.9700337801024299,
+   "sdk_necessity": 0.0,
+   "sdk_share": 0.0052567092209794075,
+   "p_at_25": 0.0,
+   "core_within_3": 0.0,
+   "core_reached": 0.096
+  },
+  "oxylabs": {
+   "sdk_only_f1": 0.820742714649048,
+   "sdk_necessity": 0.005614690320572713,
+   "sdk_share": 0.024480824617250267,
+   "p_at_25": 0.0,
+   "core_within_3": 0.048,
+   "core_reached": 0.608
+  },
+  "cashraven": {
+   "sdk_only_f1": 0.9904761904761905,
+   "sdk_necessity": 0.0,
+   "sdk_share": 0.0013387981350776856,
+   "p_at_25": 0.2,
+   "core_within_3": 0.0,
+   "core_reached": 0.19642857142857142
+  },
+  "ipidea": {
+   "sdk_only_f1": 0.9776335989488196,
+   "sdk_necessity": 0.004967972914698526,
+   "sdk_share": 0.002891057559338828,
+   "p_at_25": 0.04,
+   "core_within_3": 0.0,
+   "core_reached": 0.11290322580645161
+  },
+  "popa": {
+   "sdk_only_f1": 0.9727421472590766,
+   "sdk_necessity": 0.0044033645532149945,
+   "sdk_share": 0.0012270146411730671,
+   "p_at_25": 0.0,
+   "core_within_3": 0.0,
+   "core_reached": 0.16393442622950818
+  },
+  "traffmonetizer": {
+   "sdk_only_f1": 0.771531279178338,
+   "sdk_necessity": 0.032910052910053,
+   "sdk_share": 0.0013641095595362028,
+   "p_at_25": 0.0,
+   "core_within_3": 0.0,
+   "core_reached": 0.056
+  }
+ },
+ "spearman": {
+  "sdk_only_f1~p_at_25": {
+   "rho": 0.48197897496024894,
+   "p": 0.22649256280417976
+  },
+  "sdk_only_f1~core_within_3": {
+   "rho": -0.027277236279499045,
+   "p": 0.9488805457664998
+  },
+  "sdk_only_f1~core_reached": {
+   "rho": 0.2380952380952381,
+   "p": 0.5701563208157683
+  },
+  "sdk_necessity~p_at_25": {
+   "rho": 0.10845860635924552,
+   "p": 0.7982292698539353
+  },
+  "sdk_necessity~core_within_3": {
+   "rho": 0.5488212999484516,
+   "p": 0.15892279369926263
+  },
+  "sdk_necessity~core_reached": {
+   "rho": 0.10778636357219329,
+   "p": 0.7994604266184203
+  },
+  "sdk_share~p_at_25": {
+   "rho": 0.39319337430967677,
+   "p": 0.33522333519824965
+  },
+  "sdk_share~core_within_3": {
+   "rho": 0.8728715609439694,
+   "p": 0.004659214943993945
+  },
+  "sdk_share~core_reached": {
+   "rho": 0.523809523809524,
+   "p": 0.1827207505397148
+  }
+ }
+}
